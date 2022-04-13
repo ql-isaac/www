@@ -1,0 +1,33 @@
+name: hexo-build
+on:
+  push:
+    branches:
+      - main
+env:
+  TZ: Asia/Shanghai
+jobs:
+  www-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Install Node.js v12.14.0
+        uses: actions/setup-node@v2
+        with:
+          node-version: "12.14.0"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Deploy
+        run: |
+          npm run build
+          cd public/
+          git init
+          git config user.name "${{secrets.GIT_NAME}}"
+          git config user.email "${{secrets.GIT_EMAIL}}"
+          git add .
+          git commit -m "Site updated" -q
+          git push -f -q "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF_BUTTERFLY}}" master
+#          git push -f -q "https://${{secrets.CD_USER}}:${{secrets.CD_TOKEN}}@${{secrets.CD_REF_BUTTERFLY}}" master
