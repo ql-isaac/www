@@ -20,14 +20,27 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install
+      - name: Setup private rsa key
+        env:
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa 
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-keyscan gitee.com >> ~/.ssh/known_hosts
       - name: Deploy
         run: |
-          npm run build
-          cd public/
-          git init
-          git config user.name "${{secrets.GIT_NAME}}"
-          git config user.email "${{secrets.GIT_EMAIL}}"
-          git add .
-          git commit -m "Site updated" -q
-          git push -f -q "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF_BUTTERFLY}}" master
-#          git push -f -q "https://${{secrets.CD_USER}}:${{secrets.CD_TOKEN}}@${{secrets.CD_REF_BUTTERFLY}}" master
+          git config --global user.name "${{secrets.GIT_NAME}}"
+          git config --global user.email "${{secrets.GIT_EMAIL}}"
+          npx hexo g -d
+      # - name: Deploy
+      #   run: |
+      #     npm run build
+      #     cd public/
+      #     git init
+      #     git config user.name "${{secrets.GIT_NAME}}"
+      #     git config user.email "${{secrets.GIT_EMAIL}}"
+      #     git add .
+      #     git commit -m "Site updated" -q
+      #     git push -f -q "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF_BUTTERFLY}}" master
