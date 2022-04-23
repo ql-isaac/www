@@ -12,7 +12,7 @@ cover: https://img.imql.life/Working-rafiki.png
 
 tags:
 
-- Windows 专业版
+- Windows 10
 
 categories:
 
