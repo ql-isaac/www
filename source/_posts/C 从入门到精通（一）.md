@@ -33,7 +33,7 @@ C 语言是从 B 语言发展而来，B 语言是从 BCPL 发展而来，BCPL �
 
 下载[学习版](https://www.52pojie.cn/thread-1026907-1-1.html)，安装步骤不多说了，只是有一点建议，也是我装软件的原则：能不装 C 盘就别装 C 盘。
 
-### 下载 Ubuntu 18.04LTS 系统映像
+### 下载 Ubuntu 18.04LTS 镜像
 
 ### 安装 Ubuntu 18.04LTS
 

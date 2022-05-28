@@ -12,12 +12,14 @@ tags:
 
 - Git v2.25.0.windows.1
 - Git v2.17.1
-- Windows 10
+- Windows 10 专业版
 - Ubuntu 18.04 LTS
 
 categories:
 
-- Git 和 GitHub 从入门到实践
+- [Git 和 GitHub 从入门到实践]
+- [Git for Windows]
+- [Git]
 
 ---
 
@@ -113,15 +115,11 @@ ssh-keygen -t rsa
 
 ![SSH.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641180408889-8f216cad-6f9c-4fc9-96a0-be5e36114818.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u62ec69ac&name=SSH.png&originHeight=742&originWidth=1408&originalType=binary&ratio=1&rotation=0&showTitle=true&size=25985&status=done&style=shadow&taskId=u3ed67174-eeee-4ac6-9920-63e4db30100&title=SSH "SSH")
 
-18. Github 的 SSH 公钥配置。登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile，粘贴刚复制的内容为 Key，最后点击 Add SSH key；
-19. 测试一下。输入以下命令回车，有如下提示，表示本机和自己的 GitHub 账号绑定成功。
-
-```bash
-ssh -T git@github.com
-```
+18. Github 和 Gitee 的 SSH 公钥配置。登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile（自定义），粘贴刚复制的内容为 Key，最后点击 Add SSH key，关于 Gitee 的方式大同小异；
+19. 测试一下。执行`ssh -T git@github.com`或`ssh -T git@gitee.com`，输入 yes 回车，出现以下提示，表示本机和自己的 GitHub/Gitee 账号绑定成功。
 
 ```
-Hi <自己的 Github 用户名>! You've successfully authenticated, but GitHub does not provide shell access.
+Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <GitHub/Gitee> does not provide shell access.
 ```
 
 ### Ubuntu 18.04 LTS 上安装和配置 Git
@@ -174,15 +172,11 @@ sudo apt-get install vim
 vim /home/<自己的用户名>/.ssh/id_rsa.pub
 ```
 
-7. 登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile，粘贴刚复制的内容为 Key，最后点击 Add SSH key；
-8. 测试一下。输入以下命令回车，有如下提示，表示本机和自己的 GitHub 账号绑定成功。
-
-```bash
-ssh -T git@github.com
-```
+7. Github 和 Gitee 的 SSH 公钥配置。登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile（自定义），粘贴刚复制的内容为 Key，最后点击 Add SSH key，关于 Gitee 的方式大同小异；
+8. 测试一下。执行`ssh -T git@github.com`或`ssh -T git@gitee.com`，输入 yes 回车，出现以下提示，表示本机和自己的 GitHub/Gitee 账号绑定成功。
 
 ```
-Hi <自己的GitHub用户名>! You've successfully authenticated, but GitHub does not provide shell access.
+Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <GitHub/Gitee> does not provide shell access.
 ```
 
 ## Git 的工作流程
