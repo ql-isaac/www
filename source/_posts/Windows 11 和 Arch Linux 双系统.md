@@ -21,6 +21,10 @@ categories:
 
 ---
 
+还不会安装 Linux？快点进来！
+
+<!-- more -->
+
 ## 下载系统镜像
 
 [前往官方下载地址](https://archlinux.org/download/)，我使用的 HTTP 下载：

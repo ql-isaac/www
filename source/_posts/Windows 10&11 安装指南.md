@@ -23,6 +23,10 @@ categories:
 
 ---
 
+还不会安装 Windows？快点进来！
+
+<!-- more -->
+
 ## 下载系统镜像
 
 两个下载方式：[微软官网下载](https://www.microsoft.com/zh-cn/software-download)和 [I Tell You（新版）](https://next.itellyou.cn)，我推荐 I Tell You （新版），这是一个提供原版软件下载链接的网站，下载工具的话就推荐[迅雷](https://www.xunlei.com/index.html)。
