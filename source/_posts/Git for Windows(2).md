@@ -55,15 +55,21 @@ ssh-keygen -t rsa -f ~/.ssh/<自定义 SSH key 文件名>
 请那啥之后设置代理（我使用的代理软件是 Clash）：
 
 1. 要那啥，此处省略一百个字；
-2. 右键，点击 Git Bash Here，依次执行以下命令：
+2. 右键，点击 Git Bash Here，依次执行以下命令；
 
 ```bash
-git config --global http.https://github.com.proxy socks5://127.0.0.1:<socks代理端口号>
+export https_proxy=http://127.0.0.1:<代理端口>
 ```
 
+{% note info %}
+
+以上命令是设置环境变量，只在当前终端中有效，也可以执行以下命令修改配置以一直生效：
+
 ```bash
-git config --global https.https://github.com.proxy socks5://127.0.0.1:<socks代理端口号>
+git config --global https.proxy http://127.0.0.1:<代理端口>
 ```
+
+{% endnote %}
 
 3. 打开 Clash 的全局代理；
 4. 起飞，还没开始截图就克隆完毕了。
