@@ -187,7 +187,7 @@ toc:
 
 post_copyright:
   enable: true
-  decode: true
+  decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -201,6 +201,7 @@ reward:
     - img: https://img.imql.life/Alipay.png
       link:
       text: Alipay
+
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
@@ -217,6 +218,7 @@ related_post:
 
 # figcaption (圖片描述文字)
 photofigcaption: true
+
 # post_pagination (分頁)
 # value: 1 || 2 || false
 # 1: The 'next post' will link to old post
@@ -313,18 +315,18 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: Do0Fp7Xjbu6D4jOfFedAO2oh-gzGzoHsz # leancloud application app id
-  appKey: 6Th2LiXH9uwSbRvbRIUOG4Sl # leancloud application app key
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+  lang: en # i18n: zh-CN/zh-TW/en/ja
   placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   emojiCDN: # emoji CDN
-  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
   visitor: false
   option:
@@ -335,7 +337,7 @@ waline:
   serverURL: # Waline server address url
   avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   emojiCDN: # emoji CDN
-  bg: /image/comment_bg.png # waline background
+  bg: # waline background
   visitor: false
   option:
 
@@ -412,7 +414,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: <div class="js-pjax"><span id="cnzz_stat_icon_1279583955"></span><script src="https://v1.cnzz.com/z_stat.php?id=1279583955&online=1&show=line"></script><script src="https://c.cnzz.com/core.php?web_id=1279583955&amp;show=line&amp;online=1&amp;t=z" charset="utf-8"></script></div><div class="icp"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn"><i class="fa fa-registered" aria-hidden="true"></i> <span>京ICP备20031573号-2</span></a></div>
+  custom_text: <div class="icp"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn"><i class="fa fa-registered" aria-hidden="true"></i> <span>京ICP备20031573号-2</span></a></div>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -542,7 +544,7 @@ canvas_nest:
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
-  mobile: true
+  mobile: false
 
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode

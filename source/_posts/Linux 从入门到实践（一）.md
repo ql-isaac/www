@@ -1,22 +1,14 @@
 ---
-
 title: Linux 从入门到实践（一）
-
-trans: Linux-Learning(1)
-
+trans: Linux_Learning_1
 date: 2020-02-03 16:36:28
-
 cover: https://img.imql.life/Linux.jpg
-
 tags:
-
-- CentOS 7.7(1908)
-- VMware® Workstation 15 Pro
+  - CentOS 7.7(1908)
+  - VMware® Workstation 15 Pro
 
 categories:
-
-- Linux 从入门到实践
-
+  - Linux 从入门到实践
 ---
 
 操作系统作为软件的软件，实在是重中之重。

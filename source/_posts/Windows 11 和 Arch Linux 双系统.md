@@ -1,24 +1,15 @@
 ---
-
 title: Arch Linux 和 Windows 11 双系统
-
 trans: Dual_Booting_Windows_11_and_Arch_Linux
-
 date: 2022-04-30 21:51:00
-
 updated: 2022-04-30 21:51:00
-
 cover: https://img.imql.life/Dual_Booting_Windows_11_and_Arch_Linux.png
-
 tags:
-
-- Arch Linux
-- Windows 11
+  - Arch Linux
+  - Windows 11 专业版
 
 categories:
-
-- PC
-
+  - PC
 ---
 
 还不会安装 Linux？快点进来！
@@ -28,21 +19,17 @@ categories:
 ## 下载系统镜像
 
 [前往官方下载地址](https://archlinux.org/download/)，我使用的 HTTP 下载：
-
 ![HTTP下载.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652623598853-a5907027-58e3-4525-a8ee-ea5f3b088f87.png#clientId=u35401e7e-9e63-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc844e9aa&name=HTTP%E4%B8%8B%E8%BD%BD.png&originHeight=940&originWidth=773&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29801&status=done&style=stroke&taskId=u5ec73399-cdec-44e5-92a4-95d555d4c6d&title=)
 
 ## 磁盘管理
 
 使用 Windows 的磁盘管理从 D 盘分 170GB 空闲空间出来，如下图。
-
 ![170GB.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651469771843-f144b5af-6010-4744-bc60-664705eb0137.png#clientId=u7e02456c-a30b-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u04c797f5&name=170GB.png&originHeight=535&originWidth=1423&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46082&status=done&style=stroke&taskId=u5830cf6a-6209-4672-b1eb-da95b1a548c&title=)
 
 ## 制作启动盘
 
 空 U 盘插入电脑，如下图，使用 [Rufus](https://rufus.ie/) 制作，注意分区类型为 GPT 而非默认的 MBR，写入方式为推荐的 ISO。
-
 ![制作.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651462348362-7165685a-1701-4aba-adbb-b174756229d9.png#clientId=u7e02456c-a30b-4&crop=0&crop=0&crop=1&crop=1&from=drop&height=753&id=u472472f2&name=%E5%88%B6%E4%BD%9C.png&originHeight=753&originWidth=478&originalType=binary&ratio=1&rotation=0&showTitle=false&size=30299&status=done&style=stroke&taskId=u4aa932c0-aefd-4c8e-988b-555eb22d55a&title=&width=478)
-
 ![以ISO镜像模式写入.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651462411464-60223979-3169-4860-91f6-3c293c64a525.png#clientId=u7e02456c-a30b-4&crop=0.0032&crop=0.0028&crop=1&crop=1&from=drop&height=355&id=ue75ea86d&name=%E4%BB%A5ISO%E9%95%9C%E5%83%8F%E6%A8%A1%E5%BC%8F%E5%86%99%E5%85%A5.png&originHeight=356&originWidth=625&originalType=binary&ratio=1&rotation=0&showTitle=false&size=30009&status=done&style=stroke&taskId=uf078ca91-6013-4ffa-a1f5-68bd4ba3281&title=&width=623)
 
 ## 禁用快速启动和休眠[[1]](#参考)
@@ -70,9 +57,7 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 ## 从 U 盘启动
 
 F10 保存退出 BIOS 后不停按 F12 进入启动项选择界面，键盘上下键选择带“EFI”“USB”字样的，一般是第二个，等待。
-
 下面就可以正式开始安装 Arch Linux：
-
 ![正式开始安装.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652592105770-ec45b777-d680-4c5f-82b6-a4917b2dba64.png#clientId=ufbaa7256-80d6-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u5422b3ac&name=%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85.png&originHeight=768&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16909&status=done&style=stroke&taskId=u936927df-cf59-4eff-bb05-4aa4979c538&title=)
 
 ## 验证引导模式
@@ -152,21 +137,13 @@ cfdisk /dev/nvme0n1
 ```
 
 找到以上分出来的 170GB 的空闲空间，选择 New，首先是给根分区分配 32GB，再选择剩下的 138GB，如下图。
-
 ![剩下的138GB.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651474371101-ce3dc793-1147-4b20-8bf7-90830d7b6e2f.png#clientId=u96a8fb3b-ff30-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ucc7cf5a0&name=%E5%89%A9%E4%B8%8B%E7%9A%84138GB.png&originHeight=980&originWidth=956&originalType=binary&ratio=1&rotation=0&showTitle=false&size=48904&status=done&style=stroke&taskId=u8d128bbb-59b8-4b73-bcf3-e87d36d8d49&title=)
-
 选择 New，给交换分区分配 3GB，选择 Type，设定分区类型为 Linux swap，如下图。
-
 ![Linux_swap.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651475147666-3bbb8da3-fedb-4b0a-a353-0b365ee41783.png#clientId=u96a8fb3b-ff30-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u569f997b&name=Linux_swap.png&originHeight=971&originWidth=956&originalType=binary&ratio=1&rotation=0&showTitle=false&size=577144&status=done&style=stroke&taskId=uca7e7cb1-a2ae-415e-8b0b-87ece8798c3&title=)
-
 选择剩下的 135GB，选择 New，给家分区分配剩下的空间，选择 Type，设定分区类型为 Linux home，如下图。
-
 ![Linux_home.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651475595065-4b277020-05ce-4dc6-861e-4858bce4e650.png#clientId=u96a8fb3b-ff30-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u9a14bdd9&name=Linux_home.png&originHeight=976&originWidth=956&originalType=binary&ratio=1&rotation=0&showTitle=false&size=867633&status=done&style=stroke&taskId=ua6fd2de6-6cad-443b-be11-e4c0d9c4d18&title=)
-
 选择 Write，输入 yes 回车：
-
 ![Write.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651475696486-b78de1a5-8e42-4ccb-b926-fcaf6a5f684b.png#clientId=u96a8fb3b-ff30-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u65cb63e6&name=Write.png&originHeight=980&originWidth=958&originalType=binary&ratio=1&rotation=0&showTitle=false&size=608606&status=done&style=stroke&taskId=u91a08809-4c4e-46da-9736-1f3b4e701d3&title=)
-
 选择 Quit 退出。
 
 ## 格式化分区
@@ -306,7 +283,6 @@ vim /etc/locale.gen
 ```
 
 取消掉 en_US.UTF-8 UTF-8 和 zh_CN.UTF-8 UTF-8 前的注释（#）。
-
 生成 locale 信息：
 
 ```bash
@@ -375,7 +351,6 @@ vim /etc/default/grub
 ```
 
 取消掉 GRUB_DISABLE_OS_PROBER=false 前的注释（#）。
-
 再执行以下命令：
 
 ```bash
@@ -515,10 +490,8 @@ sudo pacman -S ttf-hannom noto-fonts noto-fonts-extra noto-fonts-emoji noto-font
 ### 系统语言
 
 按 Win 键，搜索运行 language，添加简体中文（在最下方），调整其优先级到最上方，Apply（应用）：
-
 ![系统语言.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652716174557-b71999bb-a0c4-410e-9c37-f044c0b34d4c.png#clientId=uef7f94a1-6f8d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u626f24f2&name=%E7%B3%BB%E7%BB%9F%E8%AF%AD%E8%A8%80.png&originHeight=729&originWidth=1019&originalType=binary&ratio=1&rotation=0&showTitle=false&size=39865&status=done&style=stroke&taskId=u48e34b15-9fde-4cb1-8ca3-ffbb56ff717&title=)
-
-注销登录以生效。
+注销重新登录以生效。
 
 ### 添加 archlinuxcn 源
 
@@ -564,7 +537,6 @@ yay -S fcitx-sogoupinyin
 ```
 
 一路回车即可。
-
 创建文件 .pam_environment：
 
 ```bash
@@ -590,25 +562,15 @@ sudo pacman -S timeshift
 ```
 
 按 Win 键或者 Alt+Space，搜索运行 Timeshift。
-
 快照类型一般选择 RSYNC：
-
 ![选择快照类型.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651577906559-d6a3901b-30b5-4206-a6e4-b01eb74bbc4e.png#clientId=ubce10013-ef14-4&crop=0.1112&crop=0.082&crop=0.8889&crop=0.8811&from=drop&height=679&id=u5fc297a3&name=%E9%80%89%E6%8B%A9%E5%BF%AB%E7%85%A7%E7%B1%BB%E5%9E%8B.png&originHeight=873&originWidth=774&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42184&status=done&style=stroke&taskId=ufa4998c0-cb83-4d90-b7a5-813f8819d84&title=&width=602)
-
 选择快照位置：
-
 ![选择快照位置.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651578206793-6db7d977-bfda-4732-9f5c-189a0708b7bd.png#clientId=ubce10013-ef14-4&crop=0.1113&crop=0.0808&crop=0.8887&crop=0.8847&from=drop&height=679&id=u82692c21&name=%E9%80%89%E6%8B%A9%E5%BF%AB%E7%85%A7%E4%BD%8D%E7%BD%AE.png&originHeight=873&originWidth=774&originalType=binary&ratio=1&rotation=0&showTitle=false&size=105772&status=done&style=stroke&taskId=u32455747-024b-4158-a263-f1cb85e5598&title=&width=602)
-
 选择快照等级：
-
 ![选择快照等级.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651578615513-77328040-0cce-4cb5-b8d7-781f7b7da912.png#clientId=ubce10013-ef14-4&crop=0.1113&crop=0.0832&crop=0.8888&crop=0.8823&from=drop&height=679&id=u7b193b0a&name=%E9%80%89%E6%8B%A9%E5%BF%AB%E7%85%A7%E7%AD%89%E7%BA%A7.png&originHeight=873&originWidth=774&originalType=binary&ratio=1&rotation=0&showTitle=false&size=122419&status=done&style=stroke&taskId=u04ec1286-6027-4af0-9363-c6b1fbfb8d6&title=&width=602)
-
 默认是不备份用户目录，默认即可。
-
 设置完成：
-
 ![设置完成.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651579200524-0cd722d5-f8c4-4f37-8629-aee8b40cccd8.png#clientId=ubce10013-ef14-4&crop=0.1019&crop=0.0773&crop=0.8995&crop=0.8873&from=drop&height=726&id=uc6c83ece&name=%E8%AE%BE%E7%BD%AE%E5%AE%8C%E6%88%90.png&originHeight=910&originWidth=860&originalType=binary&ratio=1&rotation=0&showTitle=false&size=166361&status=done&style=stroke&taskId=u03cb84a7-69a2-4058-8f08-6617b98e16b&title=&width=686)
-
 启用并启动 [cron](<https://wiki.archlinux.org/title/Cron_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)：
 
 ```powershell
@@ -627,11 +589,7 @@ sudo pacman -S fish
 chsh -s /usr/bin/fish
 ```
 
-{% note info %}
-
-注销重新登录生效。
-
-{% endnote %}
+注销重新登录以生效。
 
 ### 禁用休眠[[4]](#参考)
 
@@ -672,13 +630,9 @@ sudo pacman -S firefox-i18n-zh-cn
 ## 美化启动项选择界面
 
 每次重启电脑，如下图，默认的启动项选择界面看起来比较简朴，我们可以换一个主题。
-
 ![默认的启动项选择界面.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652628421134-30b74ced-683a-40a1-9c55-e97fc7ea4a61.png#clientId=ue72cc7c5-5300-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u60e96644&name=%E9%BB%98%E8%AE%A4%E7%9A%84%E5%90%AF%E5%8A%A8%E9%A1%B9%E9%80%89%E6%8B%A9%E7%95%8C%E9%9D%A2.png&originHeight=768&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11513&status=done&style=stroke&taskId=u428510d5-536d-4643-9146-d32ba8076f5&title=)
-
 [前往主题仓库](https://github.com/AdisonCavani/distro-grub-themes)，下载 Arch 主题文件：
-
 ![arch.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652717311758-9a775c23-7abb-4e7d-9832-4cac8788304c.png#clientId=uef7f94a1-6f8d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u0cec2f24&name=arch.png&originHeight=630&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&size=28283&status=done&style=stroke&taskId=u2eae46fb-04ac-44a5-aa08-60e2c716683&title=)
-
 安装 Grub Customizer：
 
 ```powershell
@@ -686,15 +640,10 @@ sudo pacman -S grub-customizer
 ```
 
 按 Win 键或者 Alt+Space，搜索运行 Grub Customizer。
-
 点击外观设置，设定分辨率为 1920x1080：
-
 ![自定义分辨率.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652716681627-a3c993c9-91cb-4809-a6f9-660fe19b7d36.png#clientId=uef7f94a1-6f8d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uff37b535&name=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E8%BE%A8%E7%8E%87.png&originHeight=629&originWidth=899&originalType=binary&ratio=1&rotation=0&showTitle=false&size=62679&status=done&style=stroke&taskId=u8d97fd4d-3185-470e-a8ca-4ed5bc2abc5&title=)
-
 点击主题后面的加号，选择以上下载好的主题文件，点击左上角文件，保存：
-
 ![保存.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1652717709948-d0a76ea0-3410-462a-b25f-e84eeef13f66.png#clientId=uef7f94a1-6f8d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u15f32a17&name=%E4%BF%9D%E5%AD%98.png&originHeight=628&originWidth=898&originalType=binary&ratio=1&rotation=0&showTitle=false&size=66400&status=done&style=stroke&taskId=u5a5ca3e7-75d9-46b8-844e-dccfad6bb1a&title=)
-
 重启，至此，Windows 11 和 Arch Linux 双系统安装园满完成。
 
 ## 参考

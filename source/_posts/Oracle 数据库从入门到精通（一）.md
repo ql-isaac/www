@@ -1,23 +1,15 @@
 ---
-
 title: Oracle 数据库从入门到精通（一）
-
-trans: Oracle-Database-Learning(1)
-
+trans: Oracle_Database_Learning_1
 date: 2020-02-29 18:22:37
-
 cover: https://img.imql.life/Oracle.jpg
-
 tags:
-
-- Oracle Database 11g Release 2
-- Windows 10
-- VMware® Workstation 15 Pro
+  - Oracle Database 11g Release 2
+  - Windows 10
+  - VMware® Workstation 15 Pro
 
 categories:
-
-- Oracle 数据库从入门到精通
-
+  - Oracle 数据库从入门到精通
 ---
 
 Oracle 数据库，又名 Oracle RDBMS，或简称 Oracle。是[甲骨文公司](https://baike.baidu.com/item/%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%AC%E5%8F%B8/430115)的一款[关系型数据库管理系统](https://baike.baidu.com/item/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/11032386)。它是在数据库领域一直处于领先地位的产品。可以说 Oracle 数据库是目前世界上最流行的关系型数据库管理系统之一，系统可移植性好、使用方便、功能强，适用于各类大、中、小微机环境。它是一种高效率的、可靠性好的、适应高吞吐量的数据库方案。
@@ -134,7 +126,6 @@ Oracle 数据库，又名 Oracle RDBMS，或简称 Oracle。是[甲骨文公司]
 ### 登录 SCOTT 用户
 
 命令行 CMD 里输入 sqlplus，输入 scott，再输入密码 tiger（不会回显），即可登录 SCOTT 用户。
-
 ![登录scott用户.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643888283466-28d19682-e83d-43fd-89b3-330f1ddbf6d9.gif#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u5e608f47&name=%E7%99%BB%E5%BD%95scott%E7%94%A8%E6%88%B7.gif&originHeight=852&originWidth=1249&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2926996&status=done&style=shadow&taskId=ubafb4db8-6440-45d0-9985-7b37484bbc4&title=)
 
 ### 第一次查询
@@ -146,7 +137,6 @@ SELECT * FROM TAB;
 ```
 
 ![第一次查询.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643888297842-b4098bb6-8005-4567-b3a5-ad98f712b313.gif#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u50be0838&name=%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9F%A5%E8%AF%A2.gif&originHeight=852&originWidth=1249&originalType=binary&ratio=1&rotation=0&showTitle=false&size=295942&status=done&style=shadow&taskId=ufdc2d3c3-c81e-4edb-a896-208450f629b&title=)
-
 呃，查询结果显示得比较乱，有一个命令可以解决这个问题，如下，设置每行显示的数据长度，执行完这个命令后再查询一下 SCOTT 用户有哪些表看看。
 
 ```
@@ -154,7 +144,6 @@ SET LINESIZE 100
 ```
 
 ![显示问题.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643888437316-f5092f99-758d-4cae-b3ab-69cab2bf6fb0.gif#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u8aa6555a&name=%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98.gif&originHeight=577&originWidth=998&originalType=binary&ratio=1&rotation=0&showTitle=false&size=44579&status=done&style=shadow&taskId=u8da12e2d-707b-41e9-af90-099629de02f&title=)
-
 呃，如果觉得 TNAME 列的数据所占的长度太长了，有一个命令可以解决这个问题，如下，设置 TNAME 列的数据所占的长度，执行完这个命令后再查询一下 SCOTT 用户有哪些表看看。
 
 ```
@@ -162,7 +151,6 @@ COL TNAME FOR A20
 ```
 
 ![太长了.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643888494916-caa9316a-6037-4498-b758-be9b742d92de.gif#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u657ab5c3&margin=%5Bobject%20Object%5D&name=%E5%A4%AA%E9%95%BF%E4%BA%86.gif&originHeight=577&originWidth=998&originalType=binary&ratio=1&rotation=0&showTitle=false&size=45958&status=done&style=none&taskId=u2046950d-452b-4ab8-aeeb-fe1edb5c271&title=)
-
 终于，能很舒服地查看到 SCOTT 用户下有四个表：BONUS、DEPT、EMP 和 SALGRADE。那么，再查询一下 DEPT 表吧。
 
 ```sql
@@ -186,7 +174,6 @@ CONN SYS/change_on_install AS SYSDBA
 ```
 
 ![切换到sys用户.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888576497-d100b60f-dc59-489b-998a-5be5ce7b3c31.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u6c8a6d4f&name=%E5%88%87%E6%8D%A2%E5%88%B0sys%E7%94%A8%E6%88%B7.png&originHeight=575&originWidth=981&originalType=binary&ratio=1&rotation=0&showTitle=false&size=19962&status=done&style=shadow&taskId=u99fc5eb6-9eb0-4cfb-be7b-c89ed94c86b&title=)
-
 登录 SYSTEM 用户看看，由于 SYSTEM 是普通管理员用户，命令如下：
 
 ```
@@ -194,7 +181,6 @@ CONN SYSTEM/manager
 ```
 
 ![切换到system用户.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888597679-4dfdac6d-eca0-46f4-a813-62af9e92cd9e.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u8d25b7d5&name=%E5%88%87%E6%8D%A2%E5%88%B0system%E7%94%A8%E6%88%B7.png&originHeight=582&originWidth=984&originalType=binary&ratio=1&rotation=0&showTitle=false&size=27043&status=done&style=shadow&taskId=u62b11619-d357-4d73-9605-3ffae391879&title=)
-
 SYSTEM 用户和 SYS 用户都是管理员，应该是可以查询到 SCOTT 用户的 DEPT 表的，来试试。
 
 ```sql
@@ -202,7 +188,6 @@ SELECT * FROM DEPT;
 ```
 
 ![表或视图不存在.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888625987-1d5fa56f-4ce8-4ebc-a597-b4bbd7bd2f4a.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u81175eea&name=%E8%A1%A8%E6%88%96%E8%A7%86%E5%9B%BE%E4%B8%8D%E5%AD%98%E5%9C%A8.png&originHeight=579&originWidth=983&originalType=binary&ratio=1&rotation=0&showTitle=false&size=25495&status=done&style=shadow&taskId=ufadaf49d-f17f-4ec3-9727-f5369ab64f2&title=)
-
 来确认一下当前用户是否是管理员用户。
 
 ```
@@ -210,7 +195,6 @@ SHOW USER
 ```
 
 ![SHOWUSER.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888666730-68d49f40-b4ad-4e93-a7e2-d061baf711ac.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ub7b103da&name=SHOWUSER.png&originHeight=578&originWidth=987&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29048&status=done&style=shadow&taskId=uab673fda-fd0b-443d-b0c8-ebda6622afd&title=)
-
 这就奇怪了，难道不能查询到？原来，是需要在表前指定用户。
 
 ```sql
@@ -222,7 +206,6 @@ SELECT * FROM SCOTT.DEPT;
 ## SQL
 
 关系型数据库的理论诞生之后，世界上出现了许多的关系型数据库管理系统，熟悉了 A 关系型数据库管理系统后几乎还得重新学 B 关系型数据库管理系统，这很大程度上是由于每个关系型数据库管理系统都实现了自己的一套语言，语言只是一种工具，弄那么多套语言毫无意义，于是，SQL（Structured Query Language，即结构化查询语言）作为一个标准和一个功能强大的关系型数据库语言诞生了。
-
 SQL 分为以下几类：
 
 - DML（Data Manipulation Language，数据操作语言）：数据查询（SELECT)、数据更新（UPDATE、INSERT 和 DELETE）和事务管理等。
@@ -264,7 +247,6 @@ DESC DEPT;
 ```
 
 ![DEPT的结构.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888737960-461ab639-5a6b-4bee-8fd6-4794f1fdb3e6.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u7a8f70da&name=DEPT%E7%9A%84%E7%BB%93%E6%9E%84.png&originHeight=684&originWidth=1086&originalType=binary&ratio=1&rotation=0&showTitle=false&size=26301&status=done&style=shadow&taskId=uf89c34b2-b467-4741-86cf-24ef01d2da8&title=)
-
 DEPT 的结构解释：
 
 | 字段   | 含义     | 类型         | 类型作用       | 说明             |
@@ -288,9 +270,7 @@ SET LINESIZE 150
 ```
 
 再查询 EMP：
-
 ![EMP.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888756342-9a5d6340-1baa-413d-a43f-a032f7b11d0a.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u8cdb188c&name=EMP.png&originHeight=687&originWidth=1105&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42876&status=done&style=shadow&taskId=ud1b0817b-9d05-4f0e-a2fc-b42ad5d0b89&title=)
-
 查看 EMP 的结构：
 
 ```sql
@@ -325,7 +305,6 @@ DESC SALGRADE;
 ```
 
 ![SALGRADE.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888795747-53c55acd-cd80-4e3b-9662-ddb5b64447c0.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ufbc1b39e&name=SALGRADE.png&originHeight=686&originWidth=1136&originalType=binary&ratio=1&rotation=0&showTitle=false&size=26710&status=done&style=shadow&taskId=u59542dba-02ed-4e49-8c1b-fafb1412d4e&title=)
-
 SALGRADE 的结构解释：
 
 | 字段  | 含义             | 类型   | 类型作用 | 说明 |
@@ -337,9 +316,7 @@ SALGRADE 的结构解释：
 ### 工资表（BONUS)
 
 BONUS 表没有数据，只有表结构。
-
 ![BONUS.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643888853218-aeb5f0b3-b5ee-4022-bf13-943ea07ec8e8.png#clientId=u5e97955b-c739-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u37cefe78&name=BONUS.png&originHeight=684&originWidth=1135&originalType=binary&ratio=1&rotation=0&showTitle=false&size=23015&status=done&style=shadow&taskId=u74f31a60-d0cb-4a67-911c-dc7b9f6730b&title=)
-
 BONUS 的结构解释：
 
 | 字段  | 含义     | 类型         | 类型作用       | 说明 |

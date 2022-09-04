@@ -1,22 +1,14 @@
 ---
-
 title: C 从入门到精通（一）
-
-trans: C-Learning(1)
-
+trans: C_Learning_1
 date: 2020-02-13 19:56:24
-
 cover: https://img.imql.life/C.jpg
-
 tags:
-
-- Ubuntu 18.04 LTS
-- VMware® Workstation 15 Pro
+  - Ubuntu 18.04 LTS
+  - VMware® Workstation 15 Pro
 
 categories:
-
-- C 从入门到精通
-
+  - C 从入门到精通
 ---
 
 任何比 C 语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比 C 语言高级的语言，都可以用 C 语言实现。C 语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
@@ -112,7 +104,6 @@ C 语言是从 B 语言发展而来，B 语言是从 BCPL 发展而来，BCPL �
 ### 安装 VMware Tools
 
 可以安装上 VMware Tools 让我们拥有最佳的 Ubuntu 18.04 LTS 操作体验，如在实体机上一般。首先点击左上方的虚拟机，再点击安装 VMware Tools，这时会在桌面出现一个 DVD，接下来具体安装过程如下：
-
 ![安装VMware_Tools.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643961297695-2aec177a-0c54-4fa3-adcd-831bd77140da.gif#clientId=u9e62351f-20ea-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u12fb2c8d&name=%E5%AE%89%E8%A3%85VMware_Tools.gif&originHeight=597&originWidth=802&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5697241&status=done&style=shadow&taskId=u242d3de2-1890-4b82-ae60-fd3a7d3b299&title=)
 
 ### 设置阿里镜像
@@ -184,7 +175,6 @@ sudo apt install chrome-gnome-shell
 9. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为 0.2 秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
 
 ![设置和调整.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643962423678-8c60001f-7b75-4936-aa2a-d169283bd156.png#clientId=u9e62351f-20ea-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=481&id=u68e99eb5&name=%E8%AE%BE%E7%BD%AE%E5%92%8C%E8%B0%83%E6%95%B4.png&originHeight=601&originWidth=435&originalType=binary&ratio=1&rotation=0&showTitle=false&size=57335&status=done&style=shadow&taskId=u8907399c-bd73-4bec-b2d8-d6584610eef&title=&width=348)
-
 ![智能隐藏.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1643962821708-9db433ae-fbc9-4272-b3d0-fd46efe4415a.gif#clientId=u9e62351f-20ea-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud0e288e8&name=%E6%99%BA%E8%83%BD%E9%9A%90%E8%97%8F.gif&originHeight=873&originWidth=801&originalType=binary&ratio=1&rotation=0&showTitle=false&size=330566&status=done&style=shadow&taskId=u7f257c28-89df-4237-8226-ef8f0e48439&title=)
 
 10. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载 McMojave 主题，等待，确定；

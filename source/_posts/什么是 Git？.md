@@ -1,26 +1,18 @@
 ---
-
 title: 什么是 Git？
-
 trans: What_is_Git
-
 date: 2020-01-24 22:53:47
-
 cover: https://image.ql-isaac.cn/Git.gif
-
 tags:
-
-- Git v2.25.0.windows.1
-- Git v2.17.1
-- Windows 10 专业版
-- Ubuntu 18.04 LTS
+  - Git v2.25.0.windows.1
+  - Git v2.17.1
+  - Windows 10 专业版
+  - Ubuntu 18.04 LTS
 
 categories:
-
-- [Git 和 GitHub 从入门到实践]
-- [Git for Windows]
-- [Git]
-
+  - [Git 和 GitHub 从入门到实践]
+  - [Git for Windows]
+  - [Git]
 ---
 
 Git 是一个目前世界上最流行的开源分布式版本控制系统。
@@ -100,11 +92,11 @@ Git 是[林纳斯·托瓦兹](https://www.baidu.com/s?wd=%E6%9E%97%E7%BA%B3%E6%9
 16. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
 ```bash
-git config --global user.name "<自己的 Github 用户名>"
+git config --global user.name "<自己的Github用户名>"
 ```
 
 ```bash
-git config --global user.email "<自己的 Github 邮箱>"
+git config --global user.email "<自己的Github邮箱>"
 ```
 
 17. 生成 SSH 秘钥并复制公钥。输入以下命令回车执行，然后连敲三次回车键，此时打开 .ssh 文件夹，其位于自己的 Windows 用户文件夹下，如下图，用文本编辑器打开 id_rsa.pub，Ctrl+A，复制里面全部的内容；
@@ -147,11 +139,11 @@ git --version
 3. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
 ```bash
-git config --global user.name "<自己的 Github 用户名>"
+git config --global user.name "<自己的Github用户名>"
 ```
 
 ```bash
-git config --global user.email "<自己的 Github 邮箱>"
+git config --global user.email "<自己的Github邮箱>"
 ```
 
 4. 生成 SSH 秘钥。输入以下命令回车执行，然后连敲三次回车键；
@@ -197,7 +189,6 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 - 版本库：即历史提交。
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
-
 ![Git工作区、暂存区和版本库.jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/8391941/1641181933724-4d619abd-3237-4f8d-818a-9afdac37279d.jpeg#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uddb5f373&name=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93.jpg&originHeight=921&originWidth=1133&originalType=binary&ratio=1&rotation=0&showTitle=true&size=93215&status=done&style=shadow&taskId=u23584885-4b74-4503-b5a5-4ea61f398d0&title=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93 "Git工作区、暂存区和版本库")
 
 1. 当对当前工作区编辑（M）、添加（A）或删除（D）的文件执行 git add 命令时，暂存区的目录树被更新；

@@ -1,23 +1,15 @@
 ---
-
 title: Python 从入门到实践（一）
-
 trans: Python-Learning(1)
-
 date: 2020-01-27 18:09:17
-
 cover: https://img.imql.life/Python.png
-
 tags:
-
-- Visual Studio Code
-- Python v3.8.1
-- Windows
+  - Visual Studio Code
+  - Python v3.8.1
+  - Windows
 
 categories:
-
-- Python 从入门到实践
-
+  - Python 从入门到实践
 ---
 
 在当今的环境下 Python 逐渐成为一门热门的语言，作为一门有着 30 年发展历史的编程语言，其在数据分析领域以及人工智能领域发挥着重要作用。Python 是基于 C 语言，一诞生就具备了完善的语法，其给程序员最直观的印象是——它的简洁性。
@@ -38,23 +30,14 @@ categories:
 ## 搭建 Python 学习环境
 
 前往[ Python 官网](https://www.python.org/)下载最新版 Python，需要说明的是，Python2.x 和 Python3.x 之间存在较大差异，在开发中一般都使用 Python3.x，本次使用的版本为 3.8.1。
-
 ![最新版Python下载.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643814353776-67c5b29c-920f-427b-b2c2-d978eca05758.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc402c69b&name=%E6%9C%80%E6%96%B0%E7%89%88Python%E4%B8%8B%E8%BD%BD.png&originHeight=1020&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=286879&status=done&style=shadow&taskId=u444a994f-5607-4917-a7bb-fa6dab71e6d&title=)
-
 下载完成后运行安装程序，勾选 Add Python 3.8 to PATH，点击 Customize installation，点击 Next，点击 Install，等待安装完成。按下 Windows+R 组合键，输入 CMD 进入命令行窗口，输入 python，发现可进入 Python 交互式环境，如下图。
-
 ![Python交互式环境.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643816961882-c284cfb4-fc95-49d8-92bd-37662905a0f4.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u2c7468f4&name=Python%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%8E%AF%E5%A2%83.png&originHeight=766&originWidth=1468&originalType=binary&ratio=1&rotation=0&showTitle=false&size=36573&status=done&style=shadow&taskId=ua79df79c-1de7-4ae8-8d4a-e4c932feae3&title=)
-
 文本编辑器到底哪家强？我推荐 Visual Studio Code。[前往官网](https://code.visualstudio.com/)，点击 Download for Windows，下载完成后运行安装程序，下一步即可，建议到下图这一步时勾选上这三个选项，等待安装完成。
-
 ![勾选.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643818592354-51fcd319-3268-43ec-b1c6-4f9976ff1a86.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud8f6ea1b&name=%E5%8B%BE%E9%80%89.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17559&status=done&style=shadow&taskId=uca6874ee-acb3-4450-98c2-62e06f26c87&title=)
-
 安装完成后进入 Visual Studio Code，进入扩展市场（左侧第五个图标），搜索 chinese，如下图，点击 Install 安装简体中文包，安装完成后点击 Restart Now，。
-
 ![安装简体中文包.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643818777166-f504941d-2b21-4b34-a4af-5cf0b7cd5b7f.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ua4daa8d7&name=%E5%AE%89%E8%A3%85%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.png&originHeight=1020&originWidth=1536&originalType=binary&ratio=1&rotation=0&showTitle=false&size=257353&status=done&style=shadow&taskId=ua3e06a8a-357d-4aee-8303-8e0c1731796&title=)
-
 仍然点击左侧第五个图标，搜索 python，第一个就是微软官方的，如下图，安装。
-
 ![Python.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643862664810-9f87aa8d-e715-4771-b651-a50dc82e13fc.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u2f52e626&name=Python.png&originHeight=209&originWidth=325&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17880&status=done&style=shadow&taskId=u91de88a9-d408-4b39-8bd6-a91b2ff0c91&title=)
 
 ## Python 学习起步
@@ -66,9 +49,7 @@ print("Hello,world!")
 ```
 
 ![打开文件夹.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643879866538-9856d231-109b-4616-9e2b-25b3954971a8.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uf0914437&name=%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9.png&originHeight=1030&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=66930&status=done&style=shadow&taskId=ua49138a3-79a4-443b-b6d9-079315c0711&title=)
-
 点击右上角运行图标，可看到学习任何一门编程语言时第一个编写的程序的运行结果，如下图。
-
 ![第一个程序.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643879888207-85d2688c-18c6-42a7-b0ce-b7ab655e6a32.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc7f5701d&name=%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F.png&originHeight=1030&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=62741&status=done&style=shadow&taskId=uba64ef7c-17dd-48d0-9478-b21576461f4&title=)
 
 ## 注释
@@ -79,7 +60,6 @@ print("Hello,world!")
 ## 变量（对象）
 
 Python 中的变量不需要声明，每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。
-
 范例：使用变量（修改文件 hello_world.py）
 
 ```python
@@ -97,7 +77,6 @@ Hello,ql!
 ```
 
 可以同时为多个变量赋值。
-
 范例：为多个变量赋值（修改文件 hello_world.py）
 
 ```python
@@ -114,7 +93,6 @@ Hello,ql!
 ```
 
 值得说明的是，如果我们比较熟悉面向对象的编程的话，Python 语言里面所有的变量严格意义上来讲应该被称为“对象”；
-
 范例：定义变量但是不设置内容(新建文件 None.py)
 
 ```python
@@ -129,7 +107,6 @@ None
 ```
 
 很多编程语言都会使用`;`作为每行程序的完结符，然而`;`在 Python 中被设计为可选符号，如果希望在一行定义多个变量，可用`;`。
-
 范例：使用`;`对一行中的多个变量进行区分（新建文件 hello_ql.py)
 
 ```python
@@ -154,7 +131,6 @@ Hello,ql!
 ## 常用数据类型
 
 在 Python 之中常用的数据类型包括：整数、浮点数、复数、布尔、字符串、列表、元组、字典和日期。
-
 范例：通过 type() 函数查看数据类型(新建文件 type.py)
 
 ```python
@@ -208,7 +184,6 @@ print(type(num_a/num_b))
 ### 复数
 
 复数数据类型不能直接使用，需要通过 complex() 函数。
-
 范例：使用复数（一）（新建文件 complex.py)
 
 ```python
@@ -244,7 +219,6 @@ print(num.conjugate()) # 获取共轭复数
 ### 布尔
 
 “布尔”是 19 世纪一位英国数学家的名字，Python 中布尔的取值：`True`和`False`。
-
 范例：使用布尔（一）（新建文件 boolean.py)
 
 ```python
@@ -260,7 +234,6 @@ Hello,world!
 ```
 
 Python 是通过 C 语言开发的，Python 继承了布尔型值为 0 表示假，为非 0 表示真的特性。
-
 范例：使用布尔（二）（修改文件 boolean.py)
 
 ```python
@@ -278,7 +251,6 @@ Hello,world!
 ### 字符串
 
 字符串是一个开发中最为重要的的概念，Python 中直接使用单引号`''`或双引号`""`进行字符串的定义，使用哪一种引号定义字符串都是一样的，但需统一，不同的引号可以嵌套。
-
 范例：引号嵌套（新建文件 quotation_mark.py)
 
 ```python
@@ -296,7 +268,6 @@ print(message)
 ```
 
 可使用`+`进行字符串的拼接操作。
-
 范例：字符串的拼接（新建文件 string.py)
 
 ```python
@@ -338,7 +309,6 @@ Python:"Hello,world!"
 ### 函数 input()
 
 利用函数 input()，Python 可以接受通过键盘输入的字符串类型的数据
-
 范例：通过键盘输入数据（新建文件 input.py）
 
 ```python
@@ -403,7 +373,6 @@ print(type(temp))
 ```
 
 如果字符串不是由规定字符组成，int.py 就会产生异常。
-
 范例：字符串不是由规定字符组成（修改文件 int.py）
 
 ```python
@@ -469,7 +438,6 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
 使用`+`拼接任何数据与字符串时都需要先将任何数据转为字符串类型。
-
 范例：改正以上错误（修改文件 int.py）
 
 ```python
@@ -575,7 +543,6 @@ print("%(num_a)5.2f,%(num_b)010.2f"%vars())
 ### 函数 print()
 
 默认情况下使用函数 print() 都会进行换行，如果不希望换行，可以使用“end“参数。
-
 范例：使用“end“参数（新建文件 print.py）
 
 ```python
@@ -675,7 +642,6 @@ Python 中没有自增（`++`）和自减（`--`）运算符，因为 Python 中
 | <=     | 小于等于比较 | 20 <= 20（True） |
 
 关系运算符除了能针对数值型数据进行比较之外，还能比较字符串，比较字符串实际上就是依次比较字符的编码。
-
 范例：比较字符串（新建文件 string.py)
 
 ```python
@@ -691,7 +657,6 @@ True
 ```
 
 如果想知道某单个字符字符串的编码，可使用 ord() 函数。
-
 范例：查看某单个字符字符串的编码（新建文件 ord.py）
 
 ```python
@@ -741,7 +706,6 @@ print("小写的“l”的编码：%d，大写的“L”的编码：%d"%(ord("l"
 ### 身份运算符
 
 Python 中所有的数据类型都为引用数据类型，id() 函数可以获取相应的内存地址。
-
 范例：id() 函数（新建文件 id.py)
 
 ```python
@@ -762,7 +726,6 @@ num_c 变量的地址：1757145024
 ```
 
 Python 中相等比较运算符`==`类似于 Java 中的`equals()`。
-
 范例：内容相等比较（新建文件 equals.py)
 
 ```python
@@ -833,7 +796,6 @@ else:
 ```
 
 不得不说说 Python 中的缩进，Python 根据缩进来判断代码行与前一个代码行的关系，类似于 C 和 Java 语言的大括号，PEP8 建议每级缩进都使用四个空格，这既可提高可读性，又留下了足够多的多级缩进空间。
-
 范例：判断闰年（新建文件 leap_year.py)
 
 ```python
@@ -903,17 +865,14 @@ while num_b < 1000:
 
 ### for 循环
 
-| for 循环                              | for...else 循环                                                                   |
-| ------------------------------------- | --------------------------------------------------------------------------------- |
+| for 循环 | for...else 循环 |
+| -------- | --------------- |
+
 | for <变量> in <序列>
-
- <循环语句> | for <变量> in <序列>
-
- <循环语句>
-
+<循环语句> | for <变量> in <序列>
+<循环语句>
 else:
-
- <循环语句执行完毕后的语句> |
+<循环语句执行完毕后的语句> |
 
 ## 序列
 
@@ -922,7 +881,6 @@ Python 在设计的过程中强调的一直是简洁性。在许多的编程语�
 ### 列表
 
 直接使用一对中括号定义列表，可使用索引访问列表元素，从 0 开始。
-
 范例：定义列表（新建文件 list.py）
 
 ```python
