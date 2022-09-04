@@ -19,7 +19,9 @@ jobs:
           node-version: "12.14.0"
           cache: "npm"
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm config set registry https://registry.npmmirror.com
+          npm install
       - name: Setup private rsa key
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
