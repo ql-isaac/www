@@ -1,18 +1,26 @@
 ---
+
 title: 什么是 Git？
+
 trans: What_is_Git
+
 date: 2020-01-24 22:53:47
+
 cover: https://image.ql-isaac.cn/Git.gif
+
 tags:
-  - Git v2.25.0.windows.1
-  - Git v2.17.1
-  - Windows 10 专业版
-  - Ubuntu 18.04 LTS
+
+- Git v2.25.0.windows.1
+- Git v2.17.1
+- Windows 10 专业版
+- Ubuntu 18.04 LTS
 
 categories:
-  - [Git 和 GitHub 从入门到实践]
-  - [Git for Windows]
-  - [Git]
+
+- [Git 和 GitHub 从入门到实践]
+- [Git for Windows]
+- [Git]
+
 ---
 
 Git 是一个目前世界上最流行的开源分布式版本控制系统。
@@ -189,6 +197,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 - 版本库：即历史提交。
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
+
 ![Git工作区、暂存区和版本库.jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/8391941/1641181933724-4d619abd-3237-4f8d-818a-9afdac37279d.jpeg#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uddb5f373&name=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93.jpg&originHeight=921&originWidth=1133&originalType=binary&ratio=1&rotation=0&showTitle=true&size=93215&status=done&style=shadow&taskId=u23584885-4b74-4503-b5a5-4ea61f398d0&title=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93 "Git工作区、暂存区和版本库")
 
 1. 当对当前工作区编辑（M）、添加（A）或删除（D）的文件执行 git add 命令时，暂存区的目录树被更新；

@@ -1,15 +1,23 @@
 ---
+
 title: Python 从入门到实践（二）
+
 trans: Python-Learning(2)
+
 date: 2020-02-10 15:01:37
+
 cover: https://img.imql.life/Python.png
+
 tags:
-  - Pycharm
-  - Python v3.8.1
-  - Windows 10
+
+- Pycharm
+- Python v3.8.1
+- Windows 10
 
 categories:
-  - Python 从入门到实践
+
+- Python 从入门到实践
+
 ---
 
 《Python 从入门到实践（一）》是 Python 初级部分的学习笔记，主要是一些基础方面的内容，本篇就为 Python 高级部分的学习笔记，主要是一些面向对象方面的内容。
