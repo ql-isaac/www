@@ -18,7 +18,14 @@ jobs:
         with:
           node-version: "12.14.0"
           cache: "npm"
+      - name: cache dependencies
+        uses: actions/cache@v3
+        id: cache-dependencies
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
       - name: Install dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: npm ci
       - name: Setup private rsa key
         env:
