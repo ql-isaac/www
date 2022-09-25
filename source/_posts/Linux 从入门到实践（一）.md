@@ -35,4 +35,4 @@ categories:
 
 1. VMware pro 15 安装完成后，启动，点击创建新的虚拟机；
 
-![创建新的虚拟机.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643901328412-9c1f7f01-69ea-4b16-a113-b3361d7ea3e8.png#clientId=u175c783f-5427-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u34a5f30d&margin=%5Bobject%20Object%5D&name=%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA.png&originHeight=841&originWidth=1589&originalType=binary&ratio=1&rotation=0&showTitle=false&size=60189&status=done&style=none&taskId=ufcf2f10b-1f40-45e9-9d10-3a2e57df8e2&title=)
+![](https://img.imql.life/illustrations/FgdRlL67rlGMC-7iTc7AIGOPGSOl.png)

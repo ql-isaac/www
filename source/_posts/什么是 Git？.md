@@ -6,7 +6,7 @@ trans: What_is_Git
 
 date: 2020-01-24 22:53:47
 
-cover: https://image.ql-isaac.cn/Git.gif
+cover: https://img.imql.life/Git.gif
 
 tags:
 
@@ -39,63 +39,63 @@ Git 是[林纳斯·托瓦兹](https://www.baidu.com/s?wd=%E6%9E%97%E7%BA%B3%E6%9
 
 1. 双击安装程序；
 
-![安装程序.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178284305-49f1e0cc-866d-4508-9fc0-d3288481f6d8.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=0.9004&crop=1&from=drop&height=197&id=u1d3c8813&name=%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png&originHeight=219&originWidth=281&originalType=binary&ratio=1&rotation=0&showTitle=true&size=8867&status=done&style=shadow&taskId=u7790ca76-4bfa-4010-a4c3-e175398148d&title=%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F&width=253 "安装程序")
+![](https://img.imql.life/illustrations/FqdbaJcI7U--BiKwREBuPLOpYqbG.png)
 
 2. GNU 许可证。不看，Next；
 
-![许可协议.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178427208-4444f7e1-9a88-4609-a274-7ce57390acbf.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u8ac4132b&name=%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=17015&status=done&style=shadow&taskId=u6f542c07-6b1a-4ce5-9743-ae210b00724&title=%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE "许可协议")
+![](https://img.imql.life/illustrations/FrK-DZTrfHStXsAz3GcHscx8tvvu.png)
 
 3. 设置安装路径。可以将 C 改为 D，安装在 D 盘，这里就不改了，Next；
 
-![设置安装路径 .png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178655003-c0454bf3-639a-429e-aea7-698191e7a201.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud5834ad3&name=%E8%AE%BE%E7%BD%AE%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84%20.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=12226&status=done&style=shadow&taskId=ub7160dbe-0336-4991-a4b9-70b9dc80e9d&title=%E8%AE%BE%E7%BD%AE%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84 "设置安装路径")
+![](https://img.imql.life/illustrations/FiRq8BiE-RPTt9MO9LvOSUlIjlV5.png)
 
 4. 安装组件。第一个选项是说是否创建桌面快捷方式，可以不勾选，下面六个都勾选了，为默认，不更改，倒数第一个是说是否检查更新，可以不勾选，倒数第二个是说是否在所有控制台窗口中使用 TrueType 字体，勾选，Next；
 
-![安装组件.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178769225-b08d3395-057a-4324-b0d0-91ceda014901.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u9b09e6d5&name=%E5%AE%89%E8%A3%85%E7%BB%84%E4%BB%B6.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=16922&status=done&style=shadow&taskId=ub9c679d6-576e-4717-9956-6ab7a37648e&title=%E5%AE%89%E8%A3%85%E7%BB%84%E4%BB%B6 "安装组件")
+![](https://img.imql.life/illustrations/FmedYtIBledCkM2u5ZQXal1n51pG.png)
 
 5. 开始菜单设置。直接 Next；
 
-![开始菜单设置.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178833151-f8e2b6e8-4509-4eb1-b8e2-6d781ce1ab0b.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc9468b98&name=%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%AE%BE%E7%BD%AE.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=12401&status=done&style=shadow&taskId=ue8823ae4-d964-4ab8-aa20-83b195cb33d&title=%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%AE%BE%E7%BD%AE "开始菜单设置")
+![](https://img.imql.life/illustrations/FvJC-nT_tZGFFiJ_19g2EbFVdkLD.png)
 
 6. 设置 Git 的默认文本编辑器：就选择 Vim，Next；
 
-![设置Git的默认文本编辑器.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641178872491-a5b0a117-4e88-4763-96fa-06f8cfc098e7.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u1217b175&name=%E8%AE%BE%E7%BD%AEGit%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=16037&status=done&style=shadow&taskId=u1e1b8815-b719-4de4-9542-213e380fe04&title=%E8%AE%BE%E7%BD%AEGit%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8 "设置Git的默认文本编辑器")
+![](https://img.imql.life/illustrations/FiMhktEGVTfUzGAiblxwasv0AMNM.png)
 
 7. 调整 PATH 环境。就选择默认推荐的，Next，该推荐项是说仅向 PATH 添加一些最小的 Git 包装器，以避免使用可选的 Unix 工具造成环境混乱，能够通过 Git Bash、命令提示符、Windows PowerShell 以及在 PATH 中寻找 Git 的任何第三方软件使用 Git；
 
-![调整Path环境.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179029053-d4a6c150-df0a-4053-9c9f-57b08e17a6b8.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u169f4091&name=%E8%B0%83%E6%95%B4Path%E7%8E%AF%E5%A2%83.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=20312&status=done&style=shadow&taskId=u456d7356-959e-4aaf-8bb6-43f81a9fbc3&title=%E8%B0%83%E6%95%B4Path%E7%8E%AF%E5%A2%83 "调整Path环境")
+![](https://img.imql.life/illustrations/FjlUrwUZXYLx0c0WPTIpkVTyZ-Pn.png)
 
 8. 选择 HTTPS 后端传输。第一个选项是说使用 OpenSSL 库，服务器证书将使用 ca-bundle.crt 文件进行验证，这是我们常用的选项，第二个选项是说使用本地 Windows 安全通道库，服务器证书将使用 Windows 证书存储验证，此选项还允许使用公司的内部根 CA 证书，例如通过 Active Directory Domain Services，这里，就默认第一个选项，Next；
 
-![选择HTTPS后端传输.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179075232-c7e7f91c-4def-4a86-a5e7-71a87bef659f.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u26d200f2&name=%E9%80%89%E6%8B%A9HTTPS%E5%90%8E%E7%AB%AF%E4%BC%A0%E8%BE%93.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=14572&status=done&style=shadow&taskId=u2e0e0c23-8b5e-4e70-9047-7d893b5beb8&title=%E9%80%89%E6%8B%A9HTTPS%E5%90%8E%E7%AB%AF%E4%BC%A0%E8%BE%93 "选择HTTPS后端传输")
+![](https://img.imql.life/illustrations/FgfTclCBBASDa_aGj69sNMnG-FYm.png)
 
 9. 配置行尾符号转换：第一个选项是说签出 Windows 风格，提交 Unix 风格的行尾，即签出文本文件时，Git 会将 LF 转换为 CRLF，提交文本文件时，CRLF 将转换为 LF，对于跨平台项目，这是 Windows 上的推荐设置（“core.autocrlf”设置为“true”）。第二个选项是说按原样签出，提交 Unix 样式的行尾，签出文本文件时，Git 不会执行任何转换，提交文本文件时，CRLF 将转换为 LF，对于跨平台项目，这是 Unix 上的建议设置（“core.autocrlf”设置为“input”）。第三个选项是说按原样签出，按原样提交，当签出或提交文本文件时，Git 不会执行任何转换，不建议跨平台项目选择此选项（“core.autocrlf”设置为“false”），这里，就默认第一个选项，Next；
 
-![配置行尾符号转换.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179249173-76d79586-5bee-42ea-80ff-69a9e734e4cc.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ua68a3445&name=%E9%85%8D%E7%BD%AE%E8%A1%8C%E5%B0%BE%E7%AC%A6%E5%8F%B7%E8%BD%AC%E6%8D%A2.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=19377&status=done&style=shadow&taskId=u793ed08e-87d1-493e-bba0-8f94805b636&title=%E9%85%8D%E7%BD%AE%E8%A1%8C%E5%B0%BE%E7%AC%A6%E5%8F%B7%E8%BD%AC%E6%8D%A2 "配置行尾符号转换")
+![](https://img.imql.life/illustrations/FtyyIhdzEzBz7no7Z9ZcMujtD60l.png)
 
 10. 配置终端模拟器以与 Git Bash 一起使用。第一个选项是说使用 MinTTY（MSYS2 的默认终端），Git Bash 将使用 MinTTY 作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选择和 Unicode 字体，Windows 控制台程序（例如交互式 Python）必须通过“ winpty”启动才能在 MinTTY 中运行，第二个选项是说使用 Windows 的默认控制台窗口，Git 将使用 Windows 的默认控制台窗口（“cmd.exe”），该窗口可以与 Win32 控制台程序（如交互式 Python 或 node.js）一起使用，但默认的回滚非常有限，需要配置为使用 unicode 字体以正确显示非 ASCII 字符，并且在 Windows 10 之前，其窗口不能自由调整大小，并且只允许矩形文本选择，这里，就默认第一个选项，Next；
 
-![配置终端模拟器以与Git_Bash一起使用.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179399063-2a07170e-5c27-4432-ac5e-a3754cec4521.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u7540b37f&name=%E9%85%8D%E7%BD%AE%E7%BB%88%E7%AB%AF%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%BB%A5%E4%B8%8EGit_Bash%E4%B8%80%E8%B5%B7%E4%BD%BF%E7%94%A8.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=19415&status=done&style=shadow&taskId=ub8ec82ad-345c-4404-ba3c-839be803856&title=%E9%85%8D%E7%BD%AE%E7%BB%88%E7%AB%AF%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%BB%A5%E4%B8%8EGit_Bash%E4%B8%80%E8%B5%B7%E4%BD%BF%E7%94%A8 "配置终端模拟器以与Git_Bash一起使用")
+![](https://img.imql.life/illustrations/FtD2J2Pk69hC7FkPlpIw0IXLMpX_.png)
 
 11. 配置额外的选项。第一个选项是说启用文件系统缓存，文件系统数据将被批量读取并缓存在内存中用于某些操作（“core.fscache”设置为“true”）， 这可以显着地提升性能，第二个选项是说启用 Git 凭证管理器，Windows 的 Git 凭证管理器为 Windows 提供安全的 Git 凭证存储，最显著的是对 Visual Studio Team Services 和 GitHub 的多因素身份验证支持（需要 .NET Framework v4.5.1 或更高版本），第三个选项是说启用符号链接，启用符号链接需要 SeCreateSymbolicLink 权限，现有存储库不受此设置的影响，这里，就默认第一个和第二个选项，Install；
 
-![配置额外的选项.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179651298-8cde55eb-63e1-493d-976d-1018c31e05b8.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u02402a4d&name=%E9%85%8D%E7%BD%AE%E9%A2%9D%E5%A4%96%E7%9A%84%E9%80%89%E9%A1%B9.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=18070&status=done&style=shadow&taskId=u8c159a65-578c-4cb0-bf88-0550238b35c&title=%E9%85%8D%E7%BD%AE%E9%A2%9D%E5%A4%96%E7%9A%84%E9%80%89%E9%A1%B9 "配置额外的选项")
+![](https://img.imql.life/illustrations/FjlF9cBVRWBO-ePBycsmsJ3aaf4G.png)
 
 12. 安装完成；
 
-![安装完成.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179773566-b02c0c22-8877-4ff8-83c3-8939f1fe3ba5.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ucf964047&name=%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=true&size=11399&status=done&style=shadow&taskId=u368953d4-33f2-4056-88ba-5bd48ddcd41&title=%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90 "安装完成")
+![](https://img.imql.life/illustrations/FuoSX6hl9_gCFpxxAtqc4ykppgTy.png)
 
 13. Release Notes；
 
-![Release_Notes.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641179985585-79bd8bb6-3092-43cf-9211-2e316b2139ed.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u159bd7fa&name=Release_Notes.png&originHeight=745&originWidth=1303&originalType=binary&ratio=1&rotation=0&showTitle=true&size=93429&status=done&style=shadow&taskId=u60241037-11d8-4b45-9322-9b389482f7e&title=Release%20Notes "Release Notes")
+![](https://img.imql.life/illustrations/Fjz6IdAWqm0vio87duHXKCJchXLH.png)
 
 14. 至此 Git 就算安装完毕了，之后需要去 [Github](https://github.com/) 注册一个自己的账号，注意需要绑定自己的邮箱，建议是谷歌邮箱；
 
-![注册.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641180069375-cedc2cf5-a4b0-4b0f-bb23-d7b60aad3049.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u624b5810&name=%E6%B3%A8%E5%86%8C.png&originHeight=931&originWidth=1894&originalType=binary&ratio=1&rotation=0&showTitle=true&size=195800&status=done&style=shadow&taskId=u2f2760dc-62c0-4522-9416-58627f08b03&title=%E6%B3%A8%E5%86%8C "注册")
+![](https://img.imql.life/illustrations/FoLfpjHW5ebdNy28n7rOUy5qx3Ew.png)
 
 15. 在桌面右键，点击 Git Bash Here；
 
-![桌面右键.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641180133971-478b48d6-6d80-4e87-a832-a5d1af00c1fb.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u483abb1b&name=%E6%A1%8C%E9%9D%A2%E5%8F%B3%E9%94%AE.png&originHeight=456&originWidth=342&originalType=binary&ratio=1&rotation=0&showTitle=true&size=32046&status=done&style=shadow&taskId=u590c272d-6a15-47bb-8472-7f1613f4274&title=%E6%A1%8C%E9%9D%A2%E5%8F%B3%E9%94%AE "桌面右键")
+![](https://img.imql.life/illustrations/Fqu0Rbz1qATGm9FzTQjMInV9sPYu.png)
 
 16. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
@@ -113,7 +113,7 @@ git config --global user.email "<自己的Github邮箱>"
 ssh-keygen -t rsa
 ```
 
-![SSH.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641180408889-8f216cad-6f9c-4fc9-96a0-be5e36114818.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u62ec69ac&name=SSH.png&originHeight=742&originWidth=1408&originalType=binary&ratio=1&rotation=0&showTitle=true&size=25985&status=done&style=shadow&taskId=u3ed67174-eeee-4ac6-9920-63e4db30100&title=SSH "SSH")
+![](https://img.imql.life/illustrations/Frdi2BIte7tPXk74sLNOHP2IWjB6.png)
 
 18. Github 和 Gitee 的 SSH 公钥配置。登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile（自定义），粘贴刚复制的内容为 Key，最后点击 Add SSH key，关于 Gitee 的方式大同小异；
 19. 测试一下。执行`ssh -T git@github.com`或`ssh -T git@gitee.com`，输入 yes 回车，出现以下提示，表示本机和自己的 GitHub/Gitee 账号绑定成功。
@@ -130,7 +130,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 sudo apt-get update -y
 ```
 
-![更新.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641181066804-59d7067e-3c68-48ee-964a-0865dc97f1bf.png#clientId=u1deebcc9-da4d-4&crop=0&crop=0.7062&crop=1&crop=1&from=drop&height=497&id=u38b0790b&name=%E6%9B%B4%E6%96%B0.png&originHeight=497&originWidth=735&originalType=binary&ratio=1&rotation=0&showTitle=true&size=85616&status=done&style=shadow&taskId=u5b154b63-128b-487f-8c76-68658e04c3b&title=%E6%9B%B4%E6%96%B0&width=735 "更新")
+![](https://img.imql.life/illustrations/Fsg0pLxvXhnwDfKP7xVmpIvj_aOK.png)
 
 2. 在终端输入以下命令回车，安装 Git，可再输入下一个命令查看 Git 版本；
 
@@ -142,7 +142,7 @@ sudo apt install git
 git --version
 ```
 
-![安装Git.gif](https://cdn.nlark.com/yuque/0/2022/gif/8391941/1641181199668-5c02386d-6b89-4923-833d-22c02567bdc7.gif#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u22771912&name=%E5%AE%89%E8%A3%85Git.gif&originHeight=518&originWidth=779&originalType=binary&ratio=1&rotation=0&showTitle=true&size=1455979&status=done&style=shadow&taskId=ua3497739-c94e-4edc-93fc-11cad4fb86d&title=%E5%AE%89%E8%A3%85Git "安装Git")
+![](https://img.imql.life/illustrations/FiqAP6BEIhiEWdK0CDR8hUn1n2tj.gif)
 
 3. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
@@ -188,7 +188,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 5. 提交修改；
 6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
 
-![Git的工作流程.jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/8391941/1641181909520-5175a27f-0d39-415d-a55c-42e04ae3ab61.jpeg#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud2719d67&name=Git%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.jpg&originHeight=1202&originWidth=1037&originalType=binary&ratio=1&rotation=0&showTitle=true&size=82423&status=done&style=shadow&taskId=u778e2a78-b5ee-4a6f-841a-b46f0481862&title=Git%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B "Git的工作流程")
+![](https://img.imql.life/illustrations/FsakOwGQR9T3huqpfajLYvcsMKB5.jpeg)
 
 ## Git 工作区、暂存区和版本库
 
@@ -198,7 +198,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
 
-![Git工作区、暂存区和版本库.jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/8391941/1641181933724-4d619abd-3237-4f8d-818a-9afdac37279d.jpeg#clientId=u1deebcc9-da4d-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uddb5f373&name=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93.jpg&originHeight=921&originWidth=1133&originalType=binary&ratio=1&rotation=0&showTitle=true&size=93215&status=done&style=shadow&taskId=u23584885-4b74-4503-b5a5-4ea61f398d0&title=Git%E5%B7%A5%E4%BD%9C%E5%8C%BA%E3%80%81%E6%9A%82%E5%AD%98%E5%8C%BA%E5%92%8C%E7%89%88%E6%9C%AC%E5%BA%93 "Git工作区、暂存区和版本库")
+![](https://img.imql.life/illustrations/FpqWAT9N-OfYP5ybv2uT1wLtMIWk.jpeg)
 
 1. 当对当前工作区编辑（M）、添加（A）或删除（D）的文件执行 git add 命令时，暂存区的目录树被更新；
 2. 当执行提交操作（git commit）时，暂存区转化为版本库的下一次提交；

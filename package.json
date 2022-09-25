@@ -39,6 +39,14 @@
     "onlyPublished": true,
     "onlyPublic": true,
     "lastGeneratePath": "lastGeneratePath.log",
-    "token": "bWHA6ehdHUnZNYf7x4T4apnI31KDCw2t5Cw9qses"
+    "token": "bWHA6ehdHUnZNYf7x4T4apnI31KDCw2t5Cw9qses",
+    "imgCdn": {
+      "enabled": true,
+      "imageBed": "cos",
+      "host": "https://img.imql.life",
+      "bucket": "img-1303711447",
+      "region": "ap-beijing",
+      "prefixKey": "illustrations"
+    }
   }
 }
