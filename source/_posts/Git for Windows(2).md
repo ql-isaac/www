@@ -20,7 +20,7 @@ categories:
 
 不可告人的缘由，我需要另外创建一个 GitHub 小号（[isaac-ql](https://github.com/isaac-ql)），创建完账号后，就应该是去绑定个人电脑的 SSH key，我想当然的以为可以复用建博客时生成的 SSH key，结果 GitHub 给我了这个提示：
 
-![](https://img.imql.life/illustrations/FgpNphh44GP1an4zC4IrwcBCemHo.png)
+![Key_is_already_in_use.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643954136162-3f546f39-eadb-45da-8312-c96fa4e4a509.png#clientId=ucdf28f59-c05f-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u6ac7f5a8&name=Key_is_already_in_use.png&originHeight=94&originWidth=259&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3608&status=done&style=shadow&taskId=u264029e6-14a9-452c-a34d-48144d1750e&title=)
 
 好吧，看来是不能复用。百度一番后，解决办法如下：
 
@@ -50,7 +50,7 @@ ssh-keygen -t rsa -f ~/.ssh/<自定义 SSH key 文件名>
 
 如下图，`git clone`很慢怎么办？
 
-![](https://img.imql.life/illustrations/FjllEOO7y7Mk9xgjUlyJcA3rGd9Y.png)
+![克隆很慢.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643954162586-7784f6a2-f810-43cf-8fa2-7de11123b10f.png#clientId=ucdf28f59-c05f-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ueaa10aa3&name=%E5%85%8B%E9%9A%86%E5%BE%88%E6%85%A2.png&originHeight=77&originWidth=493&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6896&status=done&style=shadow&taskId=ud281fb43-2fee-488d-8b2e-ec2f0efaeab&title=)
 
 请那啥之后设置代理（我使用的代理软件是 Clash）：
 
@@ -74,4 +74,4 @@ git config --global https.proxy http://127.0.0.1:<代理端口>
 3. 打开 Clash 的全局代理；
 4. 起飞，还没开始截图就克隆完毕了。
 
-![](https://img.imql.life/illustrations/FqVunq7q65QEvJIWtxjmyU0H8esC.png)
+![起飞.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643954185940-6531a255-1c0a-4980-888c-e29cbfe270a3.png#clientId=ucdf28f59-c05f-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u9c891679&name=%E8%B5%B7%E9%A3%9E.png&originHeight=104&originWidth=515&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8435&status=done&style=shadow&taskId=uee988a6e-17ab-4594-926b-c5251770829&title=)
