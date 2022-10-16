@@ -363,7 +363,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: twikoo-4gnvxfbj1bbb1ab6
+  envId: https://twikoo.imql.life/
   region:
   visitor: true
   option:
@@ -882,7 +882,7 @@ CDN:
   disqusjs: https://cdn.imql.life/npm/disqusjs@1.3.0/dist/disqus.js
   disqusjs_css: https://cdn.imql.life/npm/disqusjs@1.3.0/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.imql.life/npm/twikoo@1.4.18/dist/twikoo.all.min.js
+  twikoo: https://cdn.imql.life/npm/twikoo@1.6.7/dist/twikoo.all.min.js
   waline: https://cdn.imql.life/npm/@waline/client@1.5.4/dist/Waline.min.js
 
   # share
