@@ -39,23 +39,23 @@ categories:
 
 前往[ Python 官网](https://www.python.org/)下载最新版 Python，需要说明的是，Python2.x 和 Python3.x 之间存在较大差异，在开发中一般都使用 Python3.x，本次使用的版本为 3.8.1。
 
-![最新版Python下载.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643814353776-67c5b29c-920f-427b-b2c2-d978eca05758.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc402c69b&name=%E6%9C%80%E6%96%B0%E7%89%88Python%E4%B8%8B%E8%BD%BD.png&originHeight=1020&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=286879&status=done&style=shadow&taskId=u444a994f-5607-4917-a7bb-fa6dab71e6d&title=)
+![](https://img.imql.life/illustrations/FgdfaGqrR6cjH22lbgixwgLZq8Zh.png)
 
 下载完成后运行安装程序，勾选 Add Python 3.8 to PATH，点击 Customize installation，点击 Next，点击 Install，等待安装完成。按下 Windows+R 组合键，输入 CMD 进入命令行窗口，输入 python，发现可进入 Python 交互式环境，如下图。
 
-![Python交互式环境.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643816961882-c284cfb4-fc95-49d8-92bd-37662905a0f4.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u2c7468f4&name=Python%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%8E%AF%E5%A2%83.png&originHeight=766&originWidth=1468&originalType=binary&ratio=1&rotation=0&showTitle=false&size=36573&status=done&style=shadow&taskId=ua79df79c-1de7-4ae8-8d4a-e4c932feae3&title=)
+![](https://img.imql.life/illustrations/Fsf2soGAVLjO1LBl4mYkyGI5-kVi.png)
 
 文本编辑器到底哪家强？我推荐 Visual Studio Code。[前往官网](https://code.visualstudio.com/)，点击 Download for Windows，下载完成后运行安装程序，下一步即可，建议到下图这一步时勾选上这三个选项，等待安装完成。
 
-![勾选.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643818592354-51fcd319-3268-43ec-b1c6-4f9976ff1a86.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ud8f6ea1b&name=%E5%8B%BE%E9%80%89.png&originHeight=476&originWidth=582&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17559&status=done&style=shadow&taskId=uca6874ee-acb3-4450-98c2-62e06f26c87&title=)
+![](https://img.imql.life/illustrations/FtgJapiUtV6KNboeLbd-S609dX43.png)
 
 安装完成后进入 Visual Studio Code，进入扩展市场（左侧第五个图标），搜索 chinese，如下图，点击 Install 安装简体中文包，安装完成后点击 Restart Now，。
 
-![安装简体中文包.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643818777166-f504941d-2b21-4b34-a4af-5cf0b7cd5b7f.png#clientId=u2372c034-ffaf-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ua4daa8d7&name=%E5%AE%89%E8%A3%85%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.png&originHeight=1020&originWidth=1536&originalType=binary&ratio=1&rotation=0&showTitle=false&size=257353&status=done&style=shadow&taskId=ua3e06a8a-357d-4aee-8303-8e0c1731796&title=)
+![](https://img.imql.life/illustrations/FsiLvii2kr0VhR3QbLivQO6eKm-N.png)
 
 仍然点击左侧第五个图标，搜索 python，第一个就是微软官方的，如下图，安装。
 
-![Python.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643862664810-9f87aa8d-e715-4771-b651-a50dc82e13fc.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u2f52e626&name=Python.png&originHeight=209&originWidth=325&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17880&status=done&style=shadow&taskId=u91de88a9-d408-4b39-8bd6-a91b2ff0c91&title=)
+![](https://img.imql.life/illustrations/ForBWJZeBzRXBzfc01SzOsRVj4AH.png)
 
 ## Python 学习起步
 
@@ -65,11 +65,11 @@ categories:
 print("Hello,world!")
 ```
 
-![打开文件夹.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643879866538-9856d231-109b-4616-9e2b-25b3954971a8.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uf0914437&name=%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9.png&originHeight=1030&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=66930&status=done&style=shadow&taskId=ua49138a3-79a4-443b-b6d9-079315c0711&title=)
+![](https://img.imql.life/illustrations/FmWyV2slAuq1sY9613fLDfHobBSc.png)
 
 点击右上角运行图标，可看到学习任何一门编程语言时第一个编写的程序的运行结果，如下图。
 
-![第一个程序.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643879888207-85d2688c-18c6-42a7-b0ce-b7ab655e6a32.png#clientId=u29b39795-2057-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=uc7f5701d&name=%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F.png&originHeight=1030&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=62741&status=done&style=shadow&taskId=uba64ef7c-17dd-48d0-9478-b21576461f4&title=)
+![](https://img.imql.life/illustrations/FhsoNBTqKIbAgOna4Pildcnc4yVD.png)
 
 ## 注释
 

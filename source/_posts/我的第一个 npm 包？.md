@@ -18,19 +18,31 @@ npm，即 Node Package Manager，是随同 NodeJS 一起安装的包管理工具
 
 <!-- more -->
 
-不可告人的缘由，如下图，听说 jsdelivr 对 npm 上的文件限度会大一些，于是决定将我博文的 Gifs 发布到 npm 上，这就成为了我的第一个 npm 包，哈哈。
+不可告人的缘由，如下图，听说 jsdelivr 对 npm 上的文件限度会大一些，于是决定将我博文的 Gifs 发布到 npm 上，这就成为了我的第一个 npm 包。
 
-![20MB.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641302610139-378fc392-6601-4d23-a662-49a93b7c80f5.png#clientId=u0be106e6-455f-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=u1eb29bc8&name=20MB.png&originHeight=93&originWidth=966&originalType=binary&ratio=1&rotation=0&showTitle=true&size=8394&status=error&style=shadow&taskId=ua6ed906e-7a2e-4db1-b5e4-4afc66e7922&title=20MB "20MB")
+![](https://img.imql.life/illustrations/FktDEIxKF1-RsaLt7pPsadQZwXYb.png)
 
-首先是注册自己的 npm 账号：
+注册自己的 npm 账号：
 
-![注册.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641302658975-de1073f9-f7f9-45b1-b5e3-f533a819f386.png#clientId=u0be106e6-455f-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=ub762cb3f&name=%E6%B3%A8%E5%86%8C.png&originHeight=1030&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=60079&status=error&style=shadow&taskId=u35b64903-9585-47f5-9ddf-c804aba2d51&title=%E6%B3%A8%E5%86%8C "注册")
+![](https://img.imql.life/illustrations/FhTqEOZzHdxN8TCF9WdYhi5OnRS-.png)
 
-然后认证一下刚刚填写的邮箱：
+认证一下刚刚填写的邮箱：
 
-![Continue.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641302713102-9eff3913-a7ff-49ad-8d91-702e036fa6d6.png#clientId=u0be106e6-455f-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=u0a020c1a&name=Continue.png&originHeight=525&originWidth=727&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22018&status=error&style=shadow&taskId=ue2d15842-47ef-4ef3-be31-96aabd46fbb&title=)
+![](https://img.imql.life/illustrations/Foju1zTfcX_ctR2st0B76T3BTNZI.png)
 
-克隆自己的 Gifs 仓库到本地，进入终端，执行以下命令添加 npm 用户，需要输入自己刚刚注册好的 npm 用户名、密码和邮箱。
+进入终端，SSH 方式克隆自己的 Gifs 远程仓库到本地：
+
+```bash
+git clone git@github.com.bak:isaac-ql/post-gifs-1.git
+```
+
+{% note info %}
+
+以上命令中@后面的域名为博主自己设置的别名，具体情况可见 [Git for Windows(2)](https://www.imql.life/2021/08/22/Git_for_Windows_2/)。
+
+{% endnote %}
+
+执行以下命令添加 npm 用户，需要输入自己刚刚注册好的 npm 用户名、密码和邮箱。
 
 ```bash
 npm adduser --registry https://registry.npmjs.org
@@ -45,9 +57,15 @@ Logged in as ql-isaac on https://registry.npmjs.org/.
 
 此时如果你前往自己的账户，可注意到自动生成了一个 Token：
 
-![Token.png](https://cdn.nlark.com/yuque/0/2021/png/8391941/1640791330817-fbde3e76-b721-4c9c-af42-49213dacf5b2.png#clientId=ue6c9e26d-2bd2-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=ua795709b&name=Token.png&originHeight=660&originWidth=1900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=92313&status=error&style=shadow&taskId=u182127f3-0506-4e4a-9d50-c121b3856ff&title=)
+![](https://img.imql.life/illustrations/Ft7kZ88uz0_rWaLWiQmzBg-QfN2v.png)
 
-接着执行如下命令进行初始化，依次填写信息，回车确认。
+{% note info %}
+
+此 Token 的值记录在用户文件夹下的 .npmrc 中。
+
+{% endnote %}
+
+接着执行如下命令进行初始化。
 
 ```bash
 npm init
@@ -55,7 +73,7 @@ npm init
 
 依次填写信息，回车确认：
 
-![init.png](https://cdn.nlark.com/yuque/0/2021/png/8391941/1640792844577-bb08312f-d419-4e83-ad31-a7c58bc384d5.png#clientId=ue6c9e26d-2bd2-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=u77ed4f0b&name=init.png&originHeight=824&originWidth=981&originalType=binary&ratio=1&rotation=0&showTitle=true&size=72379&status=error&style=shadow&taskId=uf3e1dd7d-f419-4265-86a5-fc58ba40224&title=%E5%88%9D%E5%A7%8B%E5%8C%96 "初始化")
+![](https://img.imql.life/illustrations/Fp1TaKWQvXQX4B3hp9L4DrWzHcx0.png)
 
 执行如下命令，“稍稍”等待一会，Gifs 就被发布到 npm 上去了。
 
@@ -63,4 +81,58 @@ npm init
 npm publish --registry https://registry.npmjs.org
 ```
 
-每次有新的 Gif 需要发布，都需要执行上面的命令进行全量的发布，每次都要比前一次“稍稍”多等待一会，非常难受。这里可以利用 GitHub Actions 自动进行发布，我们只需将新的 Gif 推送到自己的 Gifs 仓库即可。
+每次有新的 Gif 需要发布，都需要执行以上命令进行全量的发布，非常难受。这里可以利用 GitHub Actions 自动进行发布，我们只需将新的 Gif 推送到自己的 Gifs 远程仓库即可。
+
+前往 npm 账户下，到达 Tokens 页面，选择 Generate New Token，输入密码，填写 Name 为 GitHub Actions，选择 Type 为 Automation，生成，如下图，复制生成的 Token，最好是先记到密码本中，以便发布其他的 npm 包时复用。
+
+![](https://img.imql.life/illustrations/FlgQGjh2DvsERmyN2M3hVxRM5N1o.png)
+
+前往 Gifs 远程仓库，点击 Settings，点击 Secrets，再点击 New repository secret，填写 Name 为 NPM_TOKEN，右键粘贴以上 Token 为 Secret，点击 Add secret。
+
+新建 GitHub Actions 文件：
+
+```bash
+vim .github/workflows/autopublish.yml
+```
+
+```yaml
+name: autopublish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  post-gifs-1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "12.14.0"
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+```
+
+添加新的 Gif 后执行以下命令提交到本地仓库。
+
+```bash
+git add .
+git commit -m "xxxx"
+```
+
+增加 npm 包版本号（最后一位版本号加一）：
+
+```bash
+npm version patch
+```
+
+推送到远程仓库：
+
+```bash
+git push
+```
+
+不多时，便可看到 GitHub Actions 执行成功，前往 npm 账户下 Packages 页面，可看到我的第一个 npm 包的版本号变为 1.0.1。

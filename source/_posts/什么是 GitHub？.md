@@ -132,22 +132,22 @@ git commit -m ":art: style: 格式修改"
 
 GitHub 上的效果图：
 
-![提交示例.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641219130000-69f8972f-ba4a-4459-9955-d8ae9cb089f0.png#clientId=u43820c11-3107-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ufeeaa962&name=%E6%8F%90%E4%BA%A4%E7%A4%BA%E4%BE%8B.png&originHeight=248&originWidth=986&originalType=binary&ratio=1&rotation=0&showTitle=true&size=24748&status=done&style=shadow&taskId=u59557e07-e6dd-40cc-bb78-0c42724a855&title=%E6%8F%90%E4%BA%A4%E7%A4%BA%E4%BE%8B "提交示例")
+![](https://img.imql.life/illustrations/FtXqxH5Zrw52sjQZYeL4YPoPxSia.png)
 
 ## Fork
 
 GitHub 是一个宝库，每当发现一个有趣的仓库，我们不仅仅会去点一个 Star（收藏）或 Watch（关注），我们还会去 Fork 一下该开源仓库：
 
-![Fork.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641219202258-f8c7917a-4b2c-48eb-933e-a9d3a64d4df7.png#clientId=u43820c11-3107-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u439dc50e&name=Fork.png&originHeight=218&originWidth=1898&originalType=binary&ratio=1&rotation=0&showTitle=true&size=35074&status=done&style=shadow&taskId=uffdd1f05-06d2-4057-ba31-69d742d0478&title=Fork "Fork")
+![](https://img.imql.life/illustrations/Fr_lzksrxr26IS1bshj5pYFserFE.png)
 
 这样，该仓库会被克隆一份成为自己的仓库：
 
-![自己的仓库.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641219274500-9af96824-efb5-4a2c-9d1f-9c02be2417b3.png#clientId=u43820c11-3107-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u606bff55&name=%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BB%93%E5%BA%93.png&originHeight=242&originWidth=1899&originalType=binary&ratio=1&rotation=0&showTitle=true&size=36880&status=done&style=shadow&taskId=u9076ab00-1e8c-4c36-989e-76918870ead&title=%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BB%93%E5%BA%93 "自己的仓库")
+![](https://img.imql.life/illustrations/FuJF2bK2lg23BKTpG238UF7vEhmE.png)
 
 之后原仓库是不断有作者在更新，自己的仓库也想获得这些更新怎么办？其实很简单，如下图，这里正是在提示你原仓库的 main 分支已经超前了 13 次提交。
 
-![upstream.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641219353232-1e22f1d6-d0d5-4d3c-8151-64664ceb6bef.png#clientId=u43820c11-3107-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u48a8f5fa&name=upstream.png&originHeight=729&originWidth=1896&originalType=binary&ratio=1&rotation=0&showTitle=true&size=88579&status=done&style=shadow&taskId=ue1f7b511-2868-427f-af8d-5bf627013b6&title=upstream "upstream")
+![](https://img.imql.life/illustrations/FhY79nz_49aN-yMhAa0HjiWbs3nY.png)
 
 我们只需要点击右侧的 Fetch upstream 从原仓库进行拉取，这样自己这边的仓库也是最新的了：
 
-![fetch.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1641219381896-dffb1a39-f21b-429f-8091-b0ef00e4055e.png#clientId=u43820c11-3107-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ua01ebcaf&name=fetch.png&originHeight=800&originWidth=1913&originalType=binary&ratio=1&rotation=0&showTitle=true&size=103349&status=done&style=shadow&taskId=u4ab6a46a-a46a-4538-a387-73335233d65&title=fetch "fetch")
+![](https://img.imql.life/illustrations/FtBUjAI96oyE-IEjJl3ezasTP6Fv.png)
