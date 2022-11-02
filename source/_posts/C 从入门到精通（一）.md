@@ -211,7 +211,7 @@ sudo mv Mojave-light/ /usr/share/themes/
 
 15. [进入该网址](https://www.gnome-look.org/p/1305429/)，下载 McMojave-circle 图标，等待，确定；
 
-![下载图标.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1643962978436-4eb611fc-612c-4525-b035-9d1606e35845.png#clientId=u9e62351f-20ea-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=u69a28e4b&name=%E4%B8%8B%E8%BD%BD%E5%9B%BE%E6%A0%87.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=299869&status=error&style=shadow&taskId=ud64c2509-8b3c-4c8a-af4d-841b5545539&title=)
+![](https://img.imql.life/illustrations/FhE318R5BW3bChce88AEOOOqfVF-.png)
 
 16. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动 McMojave-circle 目录；
 
@@ -569,8 +569,7 @@ int main(){
 
 一个表达式是一系列运算符和算子的组合，用来计算出一个值。运算符（operator）是指进行运算的动作，比如加法运算符”+“，减法运算符”-“，算子（operand）是指参与运算的值，这个值可能是常数、变量和方法返回值等。
 
-## 参考视频
+## 参考
 
-[翁凯 C 语言（bilibili）](https://www.bilibili.com/video/BV19W411B7w1)
-
-[【C 语言】《带你学 C 带你飞》（bilibili）](https://www.bilibili.com/video/BV17s411N78s)
+- [翁凯 C 语言（bilibili）](https://www.bilibili.com/video/BV19W411B7w1)
+- [【C 语言】《带你学 C 带你飞》（bilibili）](https://www.bilibili.com/video/BV17s411N78s)

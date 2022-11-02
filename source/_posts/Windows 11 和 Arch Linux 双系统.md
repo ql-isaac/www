@@ -45,11 +45,11 @@ categories:
 
 ![](https://img.imql.life/illustrations/FqkSgSwzuhkMDKSzEfQsgwqV8HPy.png)
 
-## 禁用快速启动和休眠[[1]](#参考)
+## 禁用快速启动和休眠[^1]
 
 ![](https://img.imql.life/illustrations/FgztSv0laG9SB5Fz1RPjDM8cmRHR.png)
 
-## 时间表示标准统一[[2]](#参考)
+## 时间表示标准统一[^2]
 
 Windows 默认使用的时间表示标准为 localtime，Arch Linux 默认为 UTC。在此修改 Windows 的为 UTC 以保持统一，Windows 11 中执行如下命令。
 
@@ -549,7 +549,7 @@ sudo pacman -Sy && sudo pacman -S archlinuxcn-keyring
 sudo pacman -S yay
 ```
 
-### 安装输入法[[3]](#参考)
+### 安装输入法[^3]
 
 安装 fcitx、fcitx-im 和 fcitx-configtool：
 
@@ -629,7 +629,7 @@ chsh -s /usr/bin/fish
 
 注销重新登录以生效。
 
-### 禁用休眠[[4]](#参考)
+### 禁用休眠[^4]
 
 编辑文件 sleep.conf：
 
@@ -695,11 +695,14 @@ sudo pacman -S grub-customizer
 
 ## 参考
 
-1. [Dual boot with Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows)[↩](#禁用快速启动和休眠-1)
-2. [UTC in Microsoft Windows](https://wiki.archlinux.org/title/System_time#UTC_in_Microsoft_Windows)[↩](#时间表示标准统一-2)
-3. [Fcitx](<https://wiki.archlinux.org/title/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)[↩](#安装输入法-3)
-4. [Disabling suspend](https://wiki.archlinux.org/title/Power_management#Disabling_suspend)[↩](#禁用休眠-4)
-
 - [2021 Archlinux 双系统安装教程（超详细）](https://zhuanlan.zhihu.com/p/138951848)
 - [Archlinux 安装教程超详细（2021.11.15）](https://zhuanlan.zhihu.com/p/433920079)
 - [General recommendations](<https://wiki.archlinux.org/title/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
+
+[^1]: [Dual boot with Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows)
+
+[^2]: [UTC in Microsoft Windows](https://wiki.archlinux.org/title/System_time#UTC_in_Microsoft_Windows)
+
+[^3]: [Fcitx](<https://wiki.archlinux.org/title/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
+
+[^4]: [Disabling suspend](https://wiki.archlinux.org/title/Power_management#Disabling_suspend)

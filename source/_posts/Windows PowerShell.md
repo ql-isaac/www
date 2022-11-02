@@ -46,7 +46,7 @@ categories:
 
 ![](https://img.imql.life/illustrations/Fh4yT8r48lWNSHDozmfvV3uJyXTY.png)
 
-### 安装 oh-my-posh[[1]](#参考)
+### 安装 oh-my-posh[^1]
 
 1. 利用 PowerShell 命令安装：
 
@@ -110,7 +110,7 @@ notepad.exe $PROFILE
 
 {% endnote %}
 
-### 设置 PowerShell 执行策略[[2]](#参考)
+### 设置 PowerShell 执行策略[^2]
 
 一般此时重新进入 Windows PowerShell 就能看到已经美化好了，但是结果是：
 
@@ -130,8 +130,9 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
 ## 参考
 
-1. [在 Windows 上 安装 Oh My Posh](https://ohmyposh.dev/docs/) [↩](#安装-oh-my-posh-1)
-2. [about_Execution_Policies](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1) [↩](#设置-PowerShell-执行策略-2)
-
 - [2021 年打开 Powershell 的正确姿势：）](https://www.bilibili.com/video/BV1jQ4y1Y7mG)
 - [配置一个漂亮的 Windows Powershell (1)](https://www.bilibili.com/video/BV12u411Z7Zo)
+
+[^1]: [在 Windows 上 安装 Oh My Posh](https://ohmyposh.dev/docs/)
+
+[^2]: [about_Execution_Policies](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1) [↩](#设置-PowerShell-执行策略-2)
