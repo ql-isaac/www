@@ -12,7 +12,7 @@ cover: https://img.imql.life/Windows_PowerShell.png
 
 tags:
 
-- Windows 10 专业版
+- Windows 10
 
 categories:
 

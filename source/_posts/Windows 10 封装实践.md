@@ -12,7 +12,7 @@ tags:
 
 - 优启通 v3.5
 - Easy Sysprep v5.19.802.282 Release1
-- Windows 10 专业版
+- Windows 10
 - VMware® Workstation 15 Pro
 
 categories:
@@ -64,7 +64,7 @@ categories:
 
 ![](https://img.imql.life/illustrations/Fo7rCIixydravpMF6m9umEI3NpLX.png)
 
-## 安装原版 Windows 10 专业版
+## 安装 Windows 10
 
 开启此虚拟机，意外发生了：
 
@@ -110,30 +110,30 @@ categories:
 
 ## 系统调整
 
-1. 桌面图标设置。我习惯将“计算机”和“控制面板”显示出来；
+1. 安装[图吧工具箱](https://pan.imql.life/PC/%E5%BF%85%E5%A4%87/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1)；
+2. 系统激活，这个就不多说了；
+3. 系统更新；
+4. 桌面图标设置。我习惯将“计算机”和“控制面板”显示出来；
 
 ![](https://img.imql.life/illustrations/FgvildZuroKF__bpcklXl7CdLt-N.png)
 
-2. 颜色偏爱设置。默认 Windows 模式改为浅色，透明效果打开，选择从我的背景自动选取一种主题色；
+5. 颜色偏爱设置。默认 Windows 模式改为浅色，透明效果打开，选择从我的背景自动选取一种主题色；
 
 ![](https://img.imql.life/illustrations/Fn_iE-8WtYpMnnf2c4ce0nix_QIo.png)
 
-3. 显示搜索图标。感觉搜索框太占地方了；
+6. 显示搜索图标。感觉搜索框太占地方了；
 
 ![](https://img.imql.life/illustrations/FovSMRrIFtyvacsfjtnbnt6CwqAS.png)
 
-4. 装上 Telnet 客户端。这样可以在 CMD 中使用`telnet`检测目标主机 TCP 端口是否开启；
+7. 装上 Telnet 客户端。这样可以在 CMD 中使用`telnet`检测目标主机 TCP 端口是否开启；
 
 ![](https://img.imql.life/illustrations/Ft7Dj9Pu-4_HvDZZ9sBbihtmhCAg.png)
 
-5. 显示文件扩展名，这个必设；
+8. 显示文件扩展名，这个必设；
 
 ![](https://img.imql.life/illustrations/FhUtqr3g-5oWXDBGGUAxMgVYHX08.png)
 
-6. 系统激活，这个就不多说了；
-7. 最后使用 Dism++ 对系统进行优化。
-
-![](https://img.imql.life/illustrations/FtbA1XOizIA3DWJfsf9tdXpExqRR.png)
+9. 最后使用 Dism++ 对系统进行优化。
 
 ![](https://img.imql.life/illustrations/FoJWSF8xM-caFAWgwS_5xv83NgWN.png)
 
@@ -143,33 +143,36 @@ categories:
 
 ![](https://img.imql.life/illustrations/FqPrVcNntQetiBxNy6ROMRylzy5j.png)
 
-## 个人必装软件和设置
+## 必装软件
 
-1. 顺便将 Dism++ 封装进系统，这个软件还有许多地方可以探索；
-2. 安装 Node.js，下一步即可；
-3. 安装 Git 和 配置 Git，相关的内容在 [Git for Windows 分类](https://blog.ql-isaac.cn/categories/Git-for-Windows/) 中；
-4. 安装 Notepad3，下一步即可；
-5. 安装 Bandizip for Windows，默认即可；
-6. Microsoft Edge 登录自己的微软账号；
-7. 安装 NeatReader，登录自己的账号；
-8. 安装 Typora，按推荐来即可；
-9. 将 Universal Viewer Pro 放入 C 盘，为便携版；
-10. 安装 Visual Studio Code，建议勾上如图的选项；
+1. [前往官网下载 Visual Studio Code](https://code.visualstudio.com/)，安装，建议勾上如图的选项；
 
 ![](https://img.imql.life/illustrations/FtOXNGk5kUhDnTIaY9qr7XkKCPmu.png)
 
-11. 安装火绒，极速安装即可；
-12. 将 Beyond Compare 放入 C 盘，为便携版，运行一下 图中 CMD 以添加右键菜单；
+3. [前往官网下载微软电脑管家](https://pcmanager.microsoft.com/)，快速安装即可；
+4. [前往官网下载 QQ](https://im.qq.com/pcqq)，立即安装即可；
+5. [前往官网下载 Watt Toolkit](https://steampp.net/)，立即安装即可，推荐开启开机自启动，开启加速；
 
-![](https://img.imql.life/illustrations/FhztnXuXdNkI4W26ApIihIxVgsd1.png)
+![](https://img.imql.life/illustrations/FkqFhRTUmAwVF5GOwiTxxYKyh6fp.png)
 
-13. 安装 TIM，不登录；
-14. 安装 WeGame，这里注意安装路径在不在 C 盘，也是不登陆；
-15. 安装 Steam，下一步下一步，登录时需要验证码，填验证码时下面填一个好记的名称；
+![](https://img.imql.life/illustrations/FppTcTend86X8CA4T4xWdVQGObWv.png)
 
-![](https://img.imql.life/illustrations/FuO1PcnNJu8fj58sn24KgX3DJWXU.png)
+6. [前往官网下载 WeGame 客户端](https://www.wegame.com.cn/)，立即安装即可；
+7. [前往官网下载战网客户端](https://www.blizzardgames.cn/zh-cn/apps/battle.net/desktop)，安装，建议勾掉开机自启；
+8. [前往官网下载 Epic Games 客户端](https://www.epicgames.com/site/zh-CN/home)，下一步即可；
+9. [前往官网下载 Steam 客户端](https://store.steampowered.com/)，下一步即可。
 
-16. 安装战网，完成之后登录并设置为开机不自启动再退出；
+## 系统清理
+
+1. 卸载所有 Office 365 相关软件除了 OneDrive；
+
+![](https://img.imql.life/illustrations/Fi5U0XS-m6XLxmRlSI5pEg4JhVvK.png)
+
+![](https://img.imql.life/illustrations/FoV1vFSX9qnIsNwy3ThN5yehOtOy.png)
+
+2. 使用微软电脑管家清理优化下。
+
+![](https://img.imql.life/illustrations/FhEUzdo_s8uaIv7R0-aa3tT1Gwzt.png)
 
 ## ES5 封装
 

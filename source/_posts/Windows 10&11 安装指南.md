@@ -14,8 +14,8 @@ top_img: false
 
 tags:
 
-- Windows 10 专业版
-- Windows 11 专业版
+- Windows 10
+- Windows 11
 
 categories:
 
@@ -31,7 +31,9 @@ categories:
 
 两个下载渠道：[微软官网](https://www.microsoft.com/zh-cn/software-download)和 [I Tell You（新版）](https://next.itellyou.cn)，推荐 I Tell You （新版），这是一个提供原版软件下载链接的网站，下载工具的话就推荐[迅雷](https://www.xunlei.com/index.html)。我选择的 Windows 10 和 Window 11 镜像分别为：
 
-![](https://img.imql.life/illustrations/FuwRk74WuLIglu6XRXhaFfxsNStJ.png)![Windows_11.png](https://cdn.nlark.com/yuque/0/2022/png/8391941/1651659895743-51419d41-657f-4dd9-91fa-f918dc44d301.png#clientId=u2d1b3fe9-8ada-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=u510bfd37&name=Windows_11.png&originHeight=918&originWidth=1405&originalType=binary&ratio=1&rotation=0&showTitle=false&size=511058&status=done&style=shadow&taskId=u3727d541-53b2-42f4-98ac-9a48eb9316c&title=)
+![](https://img.imql.life/illustrations/FuwRk74WuLIglu6XRXhaFfxsNStJ.png)
+
+![](https://img.imql.life/illustrations/Fphp_bjBreSmWCubeuNH-r79v1z_.png)
 
 直接点击复制右边的下载链接（建议 BT），如果此时你的迅雷正在运行中的话，此时会自动解析种子并提示下载，如下图，速度还是很快的。
 
@@ -39,7 +41,9 @@ categories:
 
 下载完成后勾选一下显示校验信息：
 
-![](https://img.imql.life/illustrations/FmYRXEehwJ21vTwk9Hi3CKT5ZFC6.png)![](https://img.imql.life/illustrations/Fh_kPZRJ9Tf8FlzxL4U3-OJbioBc.png)
+![](https://img.imql.life/illustrations/FmYRXEehwJ21vTwk9Hi3CKT5ZFC6.png)
+
+![](https://img.imql.life/illustrations/Fh_kPZRJ9Tf8FlzxL4U3-OJbioBc.png)
 
 使用软件帮忙生成系统镜像的校验码（MD5、SHA1 和 SHA256 任选一个类型），我这里就直接使用 Windows 自带的命令来生成 SHA256 校验码：
 

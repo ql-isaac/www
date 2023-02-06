@@ -13,7 +13,7 @@ cover: https://img.imql.life/Dual_Booting_Windows_11_and_Arch_Linux.png
 tags:
 
 - Arch Linux
-- Windows 11 专业版
+- Windows 11
 
 categories:
 
@@ -313,25 +313,25 @@ vim /etc/locale.gen
 locale-gen
 ```
 
-创建 [locale.conf(5)](https://man.archlinux.org/man/locale.conf.5) 文件，并 [编辑设定 LANG 变量](<https://wiki.archlinux.org/title/Locale_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E7%B3%BB%E7%BB%9F%E5%8C%BA%E5%9F%9F%E8%AE%BE%E7%BD%AE>)：
+创建 [locale.conf(5)](https://man.archlinux.org/man/locale.conf.5) 文件，[设定 LANG 变量](<https://wiki.archlinux.org/title/Locale_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E7%B3%BB%E7%BB%9F%E5%8C%BA%E5%9F%9F%E8%AE%BE%E7%BD%AE>)：
 
 ```bash
 vim /etc/locale.conf
 ```
 
-```bash
+```
 LANG=en_US.UTF-8
 ```
 
 ### 网络
 
-创建文件 hostname，即自定义设定主机名：
+创建文件 hostname，自定义设定主机名：
 
 ```bash
 vim /etc/hostname
 ```
 
-```bash
+```
 PC-LAPTOP
 ```
 

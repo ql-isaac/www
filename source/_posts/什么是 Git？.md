@@ -12,7 +12,7 @@ tags:
 
 - Git v2.25.0.windows.1
 - Git v2.17.1
-- Windows 10 专业版
+- Windows 10
 - Ubuntu 18.04 LTS
 
 categories:
