@@ -184,7 +184,7 @@ index_post_content:
 # anchor
 anchor:
   button:
-    enable: false
+    enable: true
     always_show: false
     icon: # the unicode value of Font Awesome icon, such as '\3423'
   auto_update: false # when you scroll in post, the URL will update according to header id.
@@ -606,7 +606,7 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon: '\f863'
+  title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
 # Global font settings
@@ -889,14 +889,14 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/iconfont.css">
-    - "<style>#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 1s linear infinite; -moz-animation: avatar_turn_around 1s linear infinite; -o-animation: avatar_turn_around 1s linear infinite; -ms-animation: avatar_turn_around 1s linear infinite; animation: avatar_turn_around 1s linear infinite; }</style>"
+    # - "<style>#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 1s linear infinite; -moz-animation: avatar_turn_around 1s linear infinite; -o-animation: avatar_turn_around 1s linear infinite; -ms-animation: avatar_turn_around 1s linear infinite; animation: avatar_turn_around 1s linear infinite; }</style>"
     - <link rel="stylesheet" href="/css/notoserifsc.css">
     - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="defer" onload="this.media='all'">
   bottom:
-    - <script defer src="https://cdn.imql.life/gh/graingert/wow@1.3.0/dist/wow.min.js"></script>
+    - <script defer src="/js/wow.min.js"></script>
     - <script defer data-pjax src="/js/wow_init.js"></script>
-    - <script defer src="https://cdn.imql.life/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    - <script defer src="https://cdn.imql.life/npm/hexo-theme-volantis@4.3.1/source/js/issues.min.js"></script>
+    - <script defer src="/js/jquery.min.js"></script>
+    - <script defer src="/js/issues.min.js"></script>
     - <script src="/js/mourning.js"></script>
 
 # CDN
