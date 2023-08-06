@@ -1,21 +1,15 @@
 ---
-
 title: JPG、PNG 和 SVG
-
+urlname: kivy9n
+author: ql-isaac
+date: "2022-01-03 16:07:12"
+updated: "2022-01-03 16:07:12"
 trans: JPG_PNG_and_SVG
-
-date: 2022-01-03 16:07:12
-
-cover: https://img.imql.life/JPG_PNG_and_SVG.png
-
+cover: "https://img.imql.life/JPG_PNG_and_SVG.png"
 top_img: false
-
-tags:
-
+tags: null
 categories:
-
-- 设计
-
+  - 设计
 ---
 
 What is the difference between JPG,PNG and SVG?

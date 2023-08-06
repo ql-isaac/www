@@ -1,23 +1,17 @@
 ---
-
 title: Java 从入门到实践（一）
-
+urlname: xpdt4h
+author: ql-isaac
+date: "2020-02-06 16:03:27"
+updated: "2023-07-02 15:50:49"
 trans: Java_Learning_1
-
-date: 2020-02-06 16:03:27
-
-cover: https://img.imql.life/Java.jpg
-
+cover: "https://img.imql.life/Java.jpg"
 tags:
-
-- JDK 9.0.4
-- Windows 10
-- VMware® Workstation 15 Pro
-
+  - JDK
+  - Windows
+  - VMware Workstation
 categories:
-
-- Java 从入门到实践
-
+  - Java 从入门到实践
 ---
 
 Java——面向对象编程语言的领军者！
@@ -37,16 +31,13 @@ Java——面向对象编程语言的领军者！
 ### 安装 JDK 9.0.4
 
 [下载 JDK 9.0.4](https://pan.baidu.com/s/1R0Y6nDqlYxKvelV3dAtekQ)，提取码：ua1e，下好后安装，安装路径可以自定义，公共 JRE 可装可不装，如下图，我这次装一装。
-
-![](https://img.imql.life/illustrations/FkU6NiiCeSRQKHpcqXrKlPSwZiH3.png)
+![安装.png](https://img.imql.life/illustrations/FkU6NiiCeSRQKHpcqXrKlPSwZiH3.png)
 
 ### 配置系统环境变量
 
 右键此电脑->属性->高级系统设置->高级->环境变量，点击下方的新建，变量名填写 JAVA_HOME，变量值就是安装 JDK 9.0.4 时设置的路径，确定。
-
 如下图，在系统变量栏中找到 Path 变量，点击编辑，点击新建，键入 %JAVA_HOME%\bin，确定。运行 CMD，键入 java，发现系统识别了 java 命令。
-
-![](https://img.imql.life/illustrations/FvupluIbX71CtIr1FexmVtktw-WT.png)
+![Path.png](https://img.imql.life/illustrations/FvupluIbX71CtIr1FexmVtktw-WT.png)
 
 ## String（字符串）
 
