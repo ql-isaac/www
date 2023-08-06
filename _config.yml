@@ -108,29 +108,17 @@ deploy:
     gitee: git@gitee.com:ql-isaac/www.imql.life.git,master
 
 douban:
-  user: 214534818
+  id: 214534818
   builtin: true
   book:
     title: It's a beautiful day!
     quote: It's a beautiful day!
-    meta: true
-    comments: true
-    top_img: https://img.imql.life/book.jpg
-    aside: true
   movie:
     title: It's a beautiful day!
     quote: It's a beautiful day!
-    meta: true
-    comments: true
-    top_img: https://img.imql.life/movie.jpg
-    aside: true
   game:
     title: It's a beautiful day!
     quote: It's a beautiful day!
-    meta: true
-    comments: true
-    top_img: https://img.imql.life/game.jpg
-    aside: true
   timeout: 10000
 
 # Markdown-it config
@@ -149,6 +137,15 @@ markdown:
     # 是否自动识别印刷格式（例如(c)渲染为©）
     typographer: true
     quotes: "“”‘’"
+  anchors:
+    level: 2
+    collisionSuffix: ""
+    permalink: true
+    permalinkClass: "headerlink"
+    permalinkSide: "right"
+    permalinkSymbol: ""
+    case: 0
+    separator: "_"
   # 设置所需插件
   plugins:
     - markdown-it-footnote
