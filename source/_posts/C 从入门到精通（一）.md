@@ -1,9 +1,8 @@
 ---
 title: C 从入门到精通（一）
 urlname: bchyou
-author: ql-isaac
 date: "2020-02-13 19:56:24"
-updated: "2023-07-02 16:13:40"
+updated: "2023-08-12 11:15:15"
 trans: C_Learning_1
 cover: "https://img.imql.life/C.jpg"
 tags:
@@ -33,106 +32,106 @@ C 语言是从 B 语言发展而来，B 语言是从 BCPL 发展而来，BCPL �
 
 1. VMware pro 15 安装完成后，启动，点击创建新的虚拟机；
 
-![创建新的虚拟机.png](https://img.imql.life/illustrations/FgdRlL67rlGMC-7iTc7AIGOPGSOl.png)
+![创建新的虚拟机.png](https://img.imql.life/illustrations/bdd3b3ca87de97f11f1fd5d84ddca47b.png)
 
 2. 选择典型，下一步；
 
-![典型.png](https://img.imql.life/illustrations/FtuvsocoNkG7jCDF7s1htnuTHTNW.png)
+![典型.png](https://img.imql.life/illustrations/94fb119b01d8f151a959257206833f7b.png)
 
 3. 选择稍后安装操作系统，下一步；
 
-![选择稍后安装操作系统.png](https://img.imql.life/illustrations/Fr45RcoMPoajeMw5oFc8bC2EpxiQ.png)
+![选择稍后安装操作系统.png](https://img.imql.life/illustrations/3f34c37ba95541e9b7fbc61b9c498517.png)
 
 4. 客户机操作系统选择 Linux，版本选择 Ubuntu 64 位，下一步；
 
-![选择客户机操作系统.png](https://img.imql.life/illustrations/FnHlhXuXR0OeJNFHzymriK5SKrnv.png)
+![选择客户机操作系统.png](https://img.imql.life/illustrations/849fb489920b06a4591941b6235e3483.png)
 
 5. 虚拟机名称和位置自定义，下一步；
 
-![虚拟机名称和位置.png](https://img.imql.life/illustrations/FjXTWAcWRs2EXxkPak0wrbaJ5fbu.png)
+![虚拟机名称和位置.png](https://img.imql.life/illustrations/0fa2e7f7759bc95071eab1d410f8d626.png)
 
 6. 磁盘容量自定义。我这里就设为 60GB，下一步，完成；
 
-![指定磁盘容量.png](https://img.imql.life/illustrations/FmhDAyMZCSoqrg0Lfwel2JSO4WR5.png)
+![指定磁盘容量.png](https://img.imql.life/illustrations/504cfe03f47b8e03c108ff78627587d9.png)
 
 7. 点击编辑此虚拟机，将处理器数量设为 4（一般为自己实体机处理器数量的一半）；
 
-![处理器数量.png](https://img.imql.life/illustrations/Fnk4EZlphETmAU0hVtUQ2k84o7U9.png)
+![处理器数量.png](https://img.imql.life/illustrations/da14c2588af074aa0552701124bd915b.png)
 
 8. 点击 CD/DVD (SATA)，选择使用 ISO 映像文件，浏览，选择 Ubuntu 18.04 LTS 系统的 ISO 映像文件，确定，点击开启此虚拟机，等待；
 
-![选择系统镜像.png](https://img.imql.life/illustrations/FswE05a1H_GIoK6G2PPmg-C5kTjh.png)
+![选择系统镜像.png](https://img.imql.life/illustrations/cf6bbb74420ac2bbc3e40514a1ebb6ac.png)
 
 9. 选择中文(简体)，再选择安装 Ubuntu；
 
-![中文简体.png](https://img.imql.life/illustrations/Fq4Cxjxbz6YJEu3afDEx6kdsvH2K.png)
+![中文简体.png](https://img.imql.life/illustrations/a165f5af1f5eaef9d5a2a9bb976386ea.png)
 
 10. 继续；
 
-![继续.png](https://img.imql.life/illustrations/Fjs_JB5zYEE4CEKYwrFDiL0VrYq0.png)
+![继续.png](https://img.imql.life/illustrations/a4e273d69d2010fc05e43d525f4afc9d.png)
 
 11. 勾选最后一个，继续；
 
-![勾选.png](https://img.imql.life/illustrations/Ft5n3nOh9B9yTeLxlhrvu8Ba37R0.png)
+![勾选.png](https://img.imql.life/illustrations/eaa2333743fdd2ba187c47d6f685cddd.png)
 
 12. 现在安装；
 
-![现在安装.png](https://img.imql.life/illustrations/FmKW2aVOuuWVLw7Jt5NTuVaCd1hY.png)
+![现在安装.png](https://img.imql.life/illustrations/5ccb43a66ebba10c2af8a727cf9f58ad.png)
 
 13. 继续；
 
-![再次确认.png](https://img.imql.life/illustrations/FrE7rEwTdvfN_0E4CnB6RtJ4cl4M.png)
+![再次确认.png](https://img.imql.life/illustrations/67aebadcce5e1474d9a19b187bd87be7.png)
 
 14. 在地图上点击，选择 shanghai，继续；
 
-![shanghai.png](https://img.imql.life/illustrations/FiTYo8hBHm3a0501fLrKfpuwUMRh.png)
+![shanghai.png](https://img.imql.life/illustrations/c943c41e7d8a04f30e059b382fd02d39.png)
 
 15. 自定义信息，继续；
 
-![您是谁.png](https://img.imql.life/illustrations/Fo6J-3z4X9D76yij2Kp8tFhYOFDX.png)
+![您是谁.png](https://img.imql.life/illustrations/3800fe98cc5a9babd1451e6437ee8c23.png)
 
 16. 等待；
 
-![等待.png](https://img.imql.life/illustrations/FsxWnAXblxz8cERBuKkKxGGgfLSR.png)
+![等待.png](https://img.imql.life/illustrations/9960b82099f9edbdff941c4e0d3031cd.png)
 
 17. 现在重启；
 
-![现在重启.png](https://img.imql.life/illustrations/Ft9rn_1oWl9zgodsJ1wn7rlKaFzm.png)
+![现在重启.png](https://img.imql.life/illustrations/e814011d1506368ff67286d6aabd502d.png)
 
 18. 登录刚创建的用户。
 
-![登录.png](https://img.imql.life/illustrations/FgRVUh1dUDLgewV7c9m1_sDLyGPf.png)
+![登录.png](https://img.imql.life/illustrations/6dfad214ddc8a6f8ea2d59b202a9ff1a.png)
 
 ### 安装 VMware Tools
 
 可以安装上 VMware Tools 让我们拥有最佳的 Ubuntu 18.04 LTS 操作体验，如在实体机上一般。首先点击左上方的虚拟机，再点击安装 VMware Tools，这时会在桌面出现一个 DVD，接下来具体安装过程如下：
-![安装VMware_Tools.gif](https://img.imql.life/illustrations/lpXoTy7dkYYnSudn_5OiLBg3-tHJ.gif)
+![安装VMware_Tools.gif](https://img.imql.life/illustrations/9bab0a925cebe68b74f7592141deed1b.gif)
 
 ### 设置阿里镜像
 
 1. 打开软件更新器；
 
-![软件更新器.png](https://img.imql.life/illustrations/FjwDjhW4ZKkpDxaaZPqXglyST501.png)
+![软件更新器.png](https://img.imql.life/illustrations/1f5fb79fecda2f7ae58fbcba4b35a15d.png)
 
 2. 一般会有更新提示，先不更新，点击设置；
 
-![设置.png](https://img.imql.life/illustrations/FkKmb3wgybD6IQJjM4iVQsYmfSQX.png)
+![设置.png](https://img.imql.life/illustrations/be75e3651a770a44228181049e5e75c0.png)
 
 3. 点击 Ubuntu 软件，设置下载源；
 
-![Ubuntu软件.png](https://img.imql.life/illustrations/Fi4frooS_f7gdi1TFb2_hgbZoUvX.png)
+![Ubuntu软件.png](https://img.imql.life/illustrations/77987e2e29d39570957a96d5c557db8d.png)
 
 4. 点击其他站点，选择阿里云镜像站点，需要输入用户密码认证；
 
-![aliyun.png](https://img.imql.life/illustrations/FldORXOOLV8d0HbuD_8LKUzf_lux.png)
+![aliyun.png](https://img.imql.life/illustrations/dbd1d45b4b7311bbfd5f6bd0a95844a4.png)
 
 5. 重新载入可用软件包列表；
 
-![重新载入.png](https://img.imql.life/illustrations/FmsqcevGa02q7rOThARiM-RsJlqr.png)
+![重新载入.png](https://img.imql.life/illustrations/843befae927eedc1369e16327d16328f.png)
 
 6. 现在和以后就可以高速安装更新或软件包了，点击立即安装；
 
-![更新.png](https://img.imql.life/illustrations/Fsg0pLxvXhnwDfKP7xVmpIvj_aOK.png)
+![更新.png](https://img.imql.life/illustrations/b3d475122fc1b334f612e2a300f10925.png)
 
 ### 美化自己的 Ubuntu 18.04 LTS
 
@@ -144,7 +143,7 @@ sudo apt install gnome-tweak-tool
 
 2. 火狐浏览器访问 [GNOME Shell Extensions](https://extensions.gnome.org)，点击安装该浏览器扩展；
 
-![安装浏览器扩展.png](https://img.imql.life/illustrations/FpIkm4qxJ7gSXR7asKl1rAlQZXLJ.png)
+![安装浏览器扩展.png](https://img.imql.life/illustrations/24889d2bfb778b7f0fef180cd859c63c.png)
 
 3. 刷新一下浏览器，这时会有错误信息，右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装 chrome-gnome-shell 软件包，再刷新一下浏览器，错误消失了；
 
@@ -152,44 +151,44 @@ sudo apt install gnome-tweak-tool
 sudo apt install chrome-gnome-shell
 ```
 
-![错误.png](https://img.imql.life/illustrations/FulgjNMDks6dh6eKju1V7N0-dFA8.png)
+![错误.png](https://img.imql.life/illustrations/d06813e78e2fe7de02b2719e2e43b07a.png)
 
 4. 分别点击两个 GNOME Shell 扩展：User Themes 和 Dash to Dock，将它们都开启（即安装）；
 
-![两个扩展.png](https://img.imql.life/illustrations/FrklIXOv4aEhYGSHrKfkBLtfTELK.png)
+![两个扩展.png](https://img.imql.life/illustrations/4db5ab2832b8be76433957e22bd781bd.png)
 
 5. 在安装完 Dash to Dock 时，你会发现侧边栏消失了，相信这是大多数人想要的效果；
 
-![侧边栏消失了.png](https://img.imql.life/illustrations/FqooB653TSpyzqSqxrl0TVW_ghbU.png)
+![侧边栏消失了.png](https://img.imql.life/illustrations/05694be5c960e35457c5811b46b5082b.png)
 
 6. 打开优化；
 
-![优化.png](https://img.imql.life/illustrations/FoFsmyuUUlfTXfFuJqQp-f5i5MAo.png)
+![优化.png](https://img.imql.life/illustrations/5365e26e1df3fc989d4d089d7c4f4ccd.png)
 
 7. 打开 Dash to Dock 的设置；
 
-![DashtoDock设置.png](https://img.imql.life/illustrations/FhZer19pFB6fUPV3HFULpMAvsGZm.png)
+![DashtoDock设置.png](https://img.imql.life/illustrations/09ff045b6d861d6fdedf7dacf5ced7c8.png)
 
 8. 打开智能隐藏的设置；
 
-![智能隐藏的设置.png](https://img.imql.life/illustrations/Fs85G3Xghlr7UViNv9ZVzBTv51tM.png)
+![智能隐藏的设置.png](https://img.imql.life/illustrations/6688e712d1ecc3133ad840d7f4c59097.png)
 
 9. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为 0.2 秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
 
-![设置和调整.png](https://img.imql.life/illustrations/Fi5Rj2OuVaNPuCvYrnA1fsoPsPsO.png)
-![智能隐藏.gif](https://img.imql.life/illustrations/FtQjzsOjYpr5HJ3QTV2q03HFErYI.gif)
+![设置和调整.png](https://img.imql.life/illustrations/b4cbf2dc73364c714caf009b595339a8.png)
+![智能隐藏.gif](https://img.imql.life/illustrations/961dc24e9ae9b921ddb0e6a8e91e3809.gif)
 
 10. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载 McMojave 主题，等待，确定；
 
-![下载主题.png](https://img.imql.life/illustrations/FsF5JL9aiYjr5YzYnwfE3ieR8AD7.png)
+![下载主题.png](https://img.imql.life/illustrations/fb441f21ce4b1045578360f903f8ec13.png)
 
 11. 提取到下载中，点击显示文件；
 
-![提取.png](https://img.imql.life/illustrations/FlH5XgyVtFUOujZKnTFgsDGgzX9I.png)
+![提取.png](https://img.imql.life/illustrations/b0610ba5a33eb63d6f485977cb7aba05.png)
 
 12. 右键，在终端打开；
 
-![右键.png](https://img.imql.life/illustrations/FhK7m9_vp4bJXg7UxBmQ3qFccBWY.png)
+![右键.png](https://img.imql.life/illustrations/c45e6931c61452732f18b74134ba6cbb.png)
 
 13. 输入以下命令回车，输入用户密码，移动 Mojave-light 目录；
 
@@ -199,11 +198,11 @@ sudo mv Mojave-light/ /usr/share/themes/
 
 14. 打开优化，选择 Mojave-light 主题，就能看到效果了；
 
-![更换主题.gif](https://img.imql.life/illustrations/FmFk5Kbu_QSRRaaqgeWatehyJCE-.gif)
+![更换主题.gif](https://img.imql.life/illustrations/0b66d518605a2065cf71beb08c6cc2a5.gif)
 
 15. [进入该网址](https://www.gnome-look.org/p/1305429/)，下载 McMojave-circle 图标，等待，确定；
 
-![下载图标.png](https://img.imql.life/illustrations/FhE318R5BW3bChce88AEOOOqfVF-.png)
+![下载图标.png](https://img.imql.life/illustrations/e59a02cfceaa33027ff081ba8e184b5f.png)
 
 16. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动 McMojave-circle 目录；
 
@@ -213,15 +212,15 @@ sudo mv McMojave-circle/ /usr/share/icons/
 
 17. 打开优化，选择 McMojave-circle 图标，就能看到效果了；
 
-![更换图标.gif](https://img.imql.life/illustrations/FpJwj4CUUM9mweU4sN4IEyUTmvFr.gif)
+![更换图标.gif](https://img.imql.life/illustrations/a723f7f4dc2a57c51b5e1d156c785bd8.gif)
 
 18. 有一个地方忘记了，打开优化，选择 shell 为 Mojave-light；
 
-![更换shell.gif](https://img.imql.life/illustrations/Ft_Faz2MxNh6Er1s6a3T09smyrhR.gif)
+![更换shell.gif](https://img.imql.life/illustrations/4e0259728c9945df954e2985370167c1.gif)
 
 19. 可以在 Dash to Dock 设置中设置侧边栏的位置在底部；
 
-![设置在底部.png](https://img.imql.life/illustrations/Ft5DDuTokamYopU3bzj7yFY0JayX.png)
+![设置在底部.png](https://img.imql.life/illustrations/0332e44f1bc1cc4fa5e4300ee1ecb0bf.png)
 
 20. 最后，在优化->窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，至此，美化算是告一段落了。
 
@@ -258,7 +257,7 @@ sudo apt-get install vim
 vim hello_world.c
 ```
 
-![hello_world.c.png](https://img.imql.life/illustrations/FkpYPmZfQL0n2hFP5WoZML01DrZ7.png)
+![hello_world.c.png](https://img.imql.life/illustrations/7f105e0e9e6abf7660133a7e98e6105b.png)
 按下 i 键进入插入模式，国际惯例，编写第一个程序：打印”Hello,World!“：
 
 ```c
@@ -270,7 +269,7 @@ int main(){
 ```
 
 按下 ESC 键进入一般模式，再按”SHIFT+;“（即输入英文的分号）进入命令模式，输入 wq 命令（write and quit），这样源文件就保存了。
-![保存.gif](https://img.imql.life/illustrations/Flj0H7eIAr6rLQpOxl0XbOzGX-MO.gif)
+![保存.gif](https://img.imql.life/illustrations/7df03374869b5d6300d42317e296651e.gif)
 
 ### 编译
 
@@ -286,7 +285,7 @@ gcc hello_world.c
 ll
 ```
 
-![a.out.png](https://img.imql.life/illustrations/Fh3kliZ30aPcT1A4H0_AA0FHRjmw.png)
+![a.out.png](https://img.imql.life/illustrations/a261935a1fb2499da45d91cffd07057a.png)
 
 ### 运行
 
@@ -296,7 +295,7 @@ ll
 ./a.out
 ```
 
-![打印结果.png](https://img.imql.life/illustrations/FrZLsFC6E_4iRSHLPiYf_Q-EMF5C.png)
+![打印结果.png](https://img.imql.life/illustrations/cec2fc983f5766a56da78d26f96dbaee.png)
 
 ### 小结
 
@@ -421,7 +420,7 @@ int main(){
 ```
 
 运行结果：
-![change.c.gif](https://img.imql.life/illustrations/FkQEay6pd5C2ALlhFSWYW8zQ9QVz.gif)
+![change.c.gif](https://img.imql.life/illustrations/f4c0f3c4a63ce7fca095d6b31c118636.gif)
 
 ### 没有初始化变量的后果
 
@@ -442,7 +441,7 @@ int main(){
 ```
 
 运行结果：
-![没有初始化变量.gif](https://img.imql.life/illustrations/Fg51QkYLwmCuWlkivYRqz7mutMQC.gif)
+![没有初始化变量.gif](https://img.imql.life/illustrations/bd8d24ad574370d6e0fcd433fa964575.gif)
 什么！找零 2 亿多？？！！原来，变量在没有初始化，也就是刚一定义时，其实就是有值的，可是这个值只有计算机知道，在发生意想不到的问题之前，我们应该时刻注意变量在定义后一定要初始化。
 
 ## 常量
@@ -499,7 +498,7 @@ int main(){
 ```
 
 运行结果：
-![尝试修改PRICE.gif](https://img.imql.life/illustrations/Fi8LEut1gqmdKSxurKUQUO3-7vhu.gif)
+![尝试修改PRICE.gif](https://img.imql.life/illustrations/94eedc4435b8ad27f619f9466d84258d.gif)
 
 ## 浮点型
 
@@ -520,7 +519,7 @@ int main(){
 ```
 
 运行结果：
-![长度换算.gif](https://img.imql.life/illustrations/Fg4hg69KbI6JCmgHl24EzotJIMes.gif)
+![长度换算.gif](https://img.imql.life/illustrations/6fc2821cffaa3589822b22ba6122fc09.gif)
 英尺似乎没发挥作用？这是怎么回事？原来，是由于 C 语言中相同数据类型的变量的计算结果仍然是该类型，inch 是 int 类型，12 是整形常量，默认是 int 类型，那么对于这个值永远都是在 0 到 11 范 围的 inch 来说，其与 12 的除法运算永远都是 int 类型，永远都会直接舍弃掉小数点后面的数据，永远都为 0，所以才会有以上的运行结果。
 那么，以上程序该如何改进呢？这里，又紧接着引入一个知识点：在 C 语言中不同数据类型的变量的运算，是先将所有变量统一转化为一种表示范围最大的数据类型。
 范例：长度换算（改）（修改 length_conversion.c)
@@ -539,7 +538,7 @@ int main(){
 ```
 
 运行结果：
-![长度换算（改）.gif](https://img.imql.life/illustrations/FqcEZt6KvEOvQVFJoIF1iduY9IMw.gif)
+![长度换算（改）.gif](https://img.imql.life/illustrations/c867af565be3d4214d738d8dfa03da2e.gif)
 
 ## 表达式
 

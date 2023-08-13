@@ -1,7 +1,6 @@
 ---
 title: JPG、PNG 和 SVG
 urlname: kivy9n
-author: ql-isaac
 date: "2022-01-03 16:07:12"
 updated: "2022-01-03 16:07:12"
 trans: JPG_PNG_and_SVG

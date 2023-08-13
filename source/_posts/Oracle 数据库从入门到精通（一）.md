@@ -1,9 +1,8 @@
 ---
 title: Oracle 数据库从入门到精通（一）
 urlname: kooclp
-author: ql-isaac
 date: "2020-02-29 18:22:37"
-updated: "2023-07-02 16:08:39"
+updated: "2023-08-12 11:15:15"
 trans: Oracle_Database_Learning_1
 cover: "https://img.imql.life/Oracle.jpg"
 tags:
@@ -27,7 +26,7 @@ Oracle 数据库，又名 Oracle RDBMS，或简称 Oracle。是[甲骨文公司]
 
 1. 打开 database 文件夹，双击 setup.exe 安装，刚开始有一个如下图的错误，解决办法是编辑 database 下的 stage 下的 cvu 下的 cvu_prereq.xml，在 <CERTIFIED_SYSTEMS></CERTIFIED_SYSTEMS> 间的最后位置添加以下代码，保存并关闭，重新安装即可。
 
-![错误.png](https://img.imql.life/illustrations/Fu1t9n6CXTPpEmHFOl7DL9S9KvEA.png)
+![错误.png](https://img.imql.life/illustrations/9cbcbb0ab24cfeedc4b7d32bfc081831.png)
 
 ```xml
 <OPERATING_SYSTEM RELEASE="6.2">
@@ -42,94 +41,94 @@ Oracle 数据库，又名 Oracle RDBMS，或简称 Oracle。是[甲骨文公司]
 
 2. 不更新，下一步；
 
-![不更新.png](https://img.imql.life/illustrations/FpIEA0xKgRbMjsvirmLQN-fJETlb.png)
+![不更新.png](https://img.imql.life/illustrations/d6b6503cc911bf779b12b11719b12c3c.png)
 
 3. 直接下一步；
 
-![创建.png](https://img.imql.life/illustrations/Fu3du5SITUHt-XTkxJI3Rl0ZgNA2.png)
+![创建.png](https://img.imql.life/illustrations/f936ba2a2bc3f42c21a57ae2ac23fc48.png)
 
 4. 选择服务器类，下一步；
 
-![服务器类.png](https://img.imql.life/illustrations/Fu1MwQsvgFEH580vS-h1j_At60iU.png)
+![服务器类.png](https://img.imql.life/illustrations/28ec4b944c432fdc60e75a76a4865d43.png)
 
 5. 直接下一步；
 
-![单实例.png](https://img.imql.life/illustrations/Fn0igM0hUP0GRx5aYxZqQV1un2Cm.png)
+![单实例.png](https://img.imql.life/illustrations/87d9077b6eaaae1bed20505c4303b1da.png)
 
 6. 选择高级安装，下一步；
 
-![高级安装.png](https://img.imql.life/illustrations/FpGLESRvADs5pS9S87PWBBMLJue5.png)
+![高级安装.png](https://img.imql.life/illustrations/7adddb02e30eec83574055d9d2f180b7.png)
 
 7. 默认即可，下一步；
 
-![语言.png](https://img.imql.life/illustrations/FqMloHUdpYt8mzmeBEaLnRBHWeMO.png)
+![语言.png](https://img.imql.life/illustrations/23feb2079402e442f37ce4d318fe2856.png)
 
 8. 就选择企业版，下一步；
 
-![企业版.png](https://img.imql.life/illustrations/FmTKng4Vm3fc_DtAzwKU6pyWQtCC.png)
+![企业版.png](https://img.imql.life/illustrations/591002452978b5655e39c274030db687.png)
 
 9. 默认即可，下一步；
 
-![默认即可.png](https://img.imql.life/illustrations/FjpIApY2jZXIVSVeN3YtQoljCd-q.png)
+![默认即可.png](https://img.imql.life/illustrations/c85f848a19cacab7ec849bb72985ef36.png)
 
 10. 默认即可，下一步；
 
-![下一步.png](https://img.imql.life/illustrations/FrHKlc4ZUZoikxaj-L5ovAmbXfi9.png)
+![下一步.png](https://img.imql.life/illustrations/847db7b0444b8f81ff9707e28b75fb44.png)
 
 11. 自定义 SID 的名称，不改，就默认也行；
 
-![自定义SID的名称.png](https://img.imql.life/illustrations/FkcW40Se8z6o6GySX18QNxzUiZgA.png)
+![自定义SID的名称.png](https://img.imql.life/illustrations/4b1d62220097d1bb830920d7482fdb3c.png)
 
 12. 使用 Unicode 字符集；
 
-![Unicode.png](https://img.imql.life/illustrations/FmkItSDOC-3Ak-CR3OCB4HMKqzCh.png)
+![Unicode.png](https://img.imql.life/illustrations/56e4a294745a787a266c6eb3ed295beb.png)
 
 13. 勾选创建具有示例方案的数据库，下一步；
 
-![创建具有示例方案的数据库.png](https://img.imql.life/illustrations/Fm4EqLiwQnypirXPInFXDXlPLtKE.png)
+![创建具有示例方案的数据库.png](https://img.imql.life/illustrations/4329a29ade7d592ce3f5137b55ba3fb5.png)
 
 14. 默认即可，下一步；
 
-![过.png](https://img.imql.life/illustrations/FsygCzt3AiTcQjp4CWi4u6bp6IhH.png)
+![过.png](https://img.imql.life/illustrations/dbb8e5bc935e3780245f9c2878f8ece7.png)
 
 15. 默认即可，下一步；
 
-![再过.png](https://img.imql.life/illustrations/FnB00R1HwJ7GdDiClhIKOLL2DMKR.png)
+![再过.png](https://img.imql.life/illustrations/de14134acaa3ab65aa1cee353ae393f3.png)
 
 16. 不启动自动备份，下一步；
 
-![不自动备份.png](https://img.imql.life/illustrations/FswvhxU3Cm-uOKYLOi4iuobhgPRO.png)
+![不自动备份.png](https://img.imql.life/illustrations/33013940fc50f3e69fb8c754253512be.png)
 
 17. 个人学习用，为了方便，选择对所有账户使用相同的口令（口令必须以字母开头），下一步；
 
-![设置口令.png](https://img.imql.life/illustrations/FjUXWgObtagDBo7P7tvFOqCvanJA.png)
+![设置口令.png](https://img.imql.life/illustrations/699b540900965bb168f0b0ac50d26e1c.png)
 
 18. 检查到错误，可以忽略，勾选全部忽略，下一步；
 
-![检查到错误.png](https://img.imql.life/illustrations/FrSqYq02smyWyXJRTNw5sIYvkKVm.png)
+![检查到错误.png](https://img.imql.life/illustrations/86ad81fe84257e4d2c991fb94673af7f.png)
 
 19. 点击完成，等待；
 
-![等待.png](https://img.imql.life/illustrations/Fq_dk3-hko6OAXFVwGOgdagmZ1V2.png)
+![等待.png](https://img.imql.life/illustrations/e340fe1278d73b0d6499bd94755d29d4.png)
 
 20. 点击口令管理；
 
-![口令管理.png](https://img.imql.life/illustrations/Fjh5EkuB7ixpCJCJd4l_eSZiUp-t.png)
+![口令管理.png](https://img.imql.life/illustrations/eef8a835cd7c67259f844e24e97f5485.png)
 
 21. 设置 SYS 用户密码为 change_on_install，设置 SYSTEM 用户密码为 manager，解锁 SCOTT 用户并设置密码为 tiger，解锁 SH 用户并设置密码为 sh；
 
-![是.png](https://img.imql.life/illustrations/Fjf4ANQ7RVIy7bT5tUd_WWCRdtS4.png)
+![是.png](https://img.imql.life/illustrations/a15ee76a72779bec7fbfdc002a7a2e16.png)
 
 22. 安装完成；
 
-![完成.png](https://img.imql.life/illustrations/Fmstuc3Oz3gBJNZwZNuWe-DdfJrq.png)
+![完成.png](https://img.imql.life/illustrations/8e10647a76d84bb23da8848e1b4b2494.png)
 
 ## SQL PLUS 的使用
 
 ### 登录 SCOTT 用户
 
 命令行 CMD 里输入 sqlplus，输入 scott，再输入密码 tiger（不会回显），即可登录 SCOTT 用户。
-![登录scott用户.gif](https://img.imql.life/illustrations/Fnc3L8Ib4dLiVUH_9wtiy_lgLqpd.gif)
+![登录scott用户.gif](https://img.imql.life/illustrations/4d54a3a8888faa6127189fe4ae76b8d9.gif)
 
 ### 第一次查询
 
@@ -139,28 +138,28 @@ Oracle 数据库，又名 Oracle RDBMS，或简称 Oracle。是[甲骨文公司]
 SELECT * FROM TAB;
 ```
 
-![第一次查询.gif](https://img.imql.life/illustrations/Fq5sngqOmHArG1_8t1Or8reBs833.gif)
+![第一次查询.gif](https://img.imql.life/illustrations/36d5ea105c5d84ba1c09fc4fb162902a.gif)
 呃，查询结果显示得比较乱，有一个命令可以解决这个问题，如下，设置每行显示的数据长度，执行完这个命令后再查询一下 SCOTT 用户有哪些表看看。
 
 ```
 SET LINESIZE 100
 ```
 
-![显示问题.gif](https://img.imql.life/illustrations/Fip4EU4-COueQrV9cSD04n_lxKZm.gif)
+![显示问题.gif](https://img.imql.life/illustrations/8b704d98d4a5fe2aad78efc79cc3f91b.gif)
 呃，如果觉得 TNAME 列的数据所占的长度太长了，有一个命令可以解决这个问题，如下，设置 TNAME 列的数据所占的长度，执行完这个命令后再查询一下 SCOTT 用户有哪些表看看。
 
 ```
 COL TNAME FOR A20
 ```
 
-![太长了.gif](https://img.imql.life/illustrations/Fv8PG6hg28bqnlQM8x0TL20C69xJ.gif)
+![太长了.gif](https://img.imql.life/illustrations/44c29b688c3275865e98d0a52d7845df.gif)
 终于，能很舒服地查看到 SCOTT 用户下有四个表：BONUS、DEPT、EMP 和 SALGRADE。那么，再查询一下 DEPT 表吧。
 
 ```sql
 SELECT * FROM DEPT;
 ```
 
-![再查询一下DEPT表.gif](https://img.imql.life/illustrations/FrJTfDJsdDMVLvIUNtYrB4JjEFG7.gif)
+![再查询一下DEPT表.gif](https://img.imql.life/illustrations/1c7320f709ef054651820500f050fe0e.gif)
 
 ### 切换用户
 
@@ -176,35 +175,35 @@ CONN[ECT] 用户名/密码 [AS SYSDBA|SYSUSER]
 CONN SYS/change_on_install AS SYSDBA
 ```
 
-![切换到sys用户.png](https://img.imql.life/illustrations/FhbPseepP9QCna0NFS6JYiRMWREy.png)
+![切换到sys用户.png](https://img.imql.life/illustrations/e55c8364facc5b7fe8dda63121f2f9c6.png)
 登录 SYSTEM 用户看看，由于 SYSTEM 是普通管理员用户，命令如下：
 
 ```
 CONN SYSTEM/manager
 ```
 
-![切换到system用户.png](https://img.imql.life/illustrations/FkkYNOBw8giLivweeweTy5AXXSQv.png)
+![切换到system用户.png](https://img.imql.life/illustrations/ec9dee24372800541c77fbaa824c635f.png)
 SYSTEM 用户和 SYS 用户都是管理员，应该是可以查询到 SCOTT 用户的 DEPT 表的，来试试。
 
 ```sql
 SELECT * FROM DEPT;
 ```
 
-![表或视图不存在.png](https://img.imql.life/illustrations/FiuZggslqxoH7QL5sqHjciwGXpV8.png)
+![表或视图不存在.png](https://img.imql.life/illustrations/78d43e0fa461a3da43e95cccdcb8afbf.png)
 来确认一下当前用户是否是管理员用户。
 
 ```
 SHOW USER
 ```
 
-![SHOWUSER.png](https://img.imql.life/illustrations/FhrZ4JTh2G9nh2N5SGV6mttDA-fd.png)
+![SHOWUSER.png](https://img.imql.life/illustrations/4891eca420ce091258299c8f4aa60bf9.png)
 这就奇怪了，难道不能查询到？原来，是需要在表前指定用户。
 
 ```sql
 SELECT * FROM SCOTT.DEPT;
 ```
 
-![加用户名.png](https://img.imql.life/illustrations/FoPnZRr-G9b52BAxIEQGhnLKdQ2N.png)
+![加用户名.png](https://img.imql.life/illustrations/8123b6bd896f8c7d24a33dadacbb6563.png)
 
 ## SQL
 
@@ -249,7 +248,7 @@ DESC 数据表;
 DESC DEPT;
 ```
 
-![DEPT的结构.png](https://img.imql.life/illustrations/FkY4V4cKgM6E8Jrz9uXV_HEAMYQE.png)
+![DEPT的结构.png](https://img.imql.life/illustrations/db27a795564e07a020bdcbb016eed049.png)
 DEPT 的结构解释：
 
 | 字段   | 含义     | 类型         | 类型作用       | 说明             |
@@ -273,7 +272,7 @@ SET LINESIZE 150
 ```
 
 再查询 EMP：
-![EMP.png](https://img.imql.life/illustrations/FgaZwRQJc3nBeKarhB-avwAEC2ph.png)
+![EMP.png](https://img.imql.life/illustrations/fe0de0c3ab6e8ec2b0b94357641e112c.png)
 查看 EMP 的结构：
 
 ```sql
@@ -307,7 +306,7 @@ SELECT * FROM SALGRADE;
 DESC SALGRADE;
 ```
 
-![SALGRADE.png](https://img.imql.life/illustrations/FtL7QWjays3MH7yydpJFFCs-_SvL.png)
+![SALGRADE.png](https://img.imql.life/illustrations/d966bd263885c62ce5bbaf8911d60ef2.png)
 SALGRADE 的结构解释：
 
 | 字段  | 含义             | 类型   | 类型作用 | 说明 |
@@ -319,7 +318,7 @@ SALGRADE 的结构解释：
 ### 工资表（BONUS)
 
 BONUS 表没有数据，只有表结构。
-![BONUS.png](https://img.imql.life/illustrations/Fpx5EGG257GFJsaScAb4DXbkLe8R.png)
+![BONUS.png](https://img.imql.life/illustrations/38c59b2a4f3f4be5ae359c04163b580b.png)
 BONUS 的结构解释：
 
 | 字段  | 含义     | 类型         | 类型作用       | 说明 |

@@ -1,9 +1,8 @@
 ---
 title: 什么是 Git？
 urlname: itfc94
-author: ql-isaac
 date: "2020-01-24 22:30:00"
-updated: "2023-07-02 12:32:31"
+updated: "2023-08-12 11:15:15"
 trans: What_is_Git
 cover: "https://img.imql.life/Git.gif"
 tags:
@@ -30,63 +29,63 @@ Git 是[林纳斯·托瓦兹](https://www.baidu.com/s?wd=%E6%9E%97%E7%BA%B3%E6%9
 
 1. 双击安装程序；
 
-![安装程序](https://img.imql.life/illustrations/FqdbaJcI7U--BiKwREBuPLOpYqbG.png "安装程序")
+![安装程序](https://img.imql.life/illustrations/4db3988e88014c9cf2015a260baad44b.png "安装程序")
 
 2. GNU 许可证。不看，Next；
 
-![许可协议](https://img.imql.life/illustrations/FrK-DZTrfHStXsAz3GcHscx8tvvu.png "许可协议")
+![许可协议](https://img.imql.life/illustrations/f4c2a18504d9beb697dfca2fb2baf830.png "许可协议")
 
 3. 设置安装路径。可以将 C 改为 D，安装在 D 盘，这里就不改了，Next；
 
-![设置安装路径](https://img.imql.life/illustrations/FiRq8BiE-RPTt9MO9LvOSUlIjlV5.png "设置安装路径")
+![设置安装路径](https://img.imql.life/illustrations/d5c58bfb9594c5c598ca0ce0e25d2c8e.png "设置安装路径")
 
 4. 安装组件。第一个选项是说是否创建桌面快捷方式，可以不勾选，下面六个都勾选了，为默认，不更改，倒数第一个是说是否检查更新，可以不勾选，倒数第二个是说是否在所有控制台窗口中使用 TrueType 字体，勾选，Next；
 
-![安装组件](https://img.imql.life/illustrations/FmedYtIBledCkM2u5ZQXal1n51pG.png "安装组件")
+![安装组件](https://img.imql.life/illustrations/e5a74fac34d173b630a80ffd4567fe73.png "安装组件")
 
 5. 开始菜单设置。直接 Next；
 
-![开始菜单设置](https://img.imql.life/illustrations/FvJC-nT_tZGFFiJ_19g2EbFVdkLD.png "开始菜单设置")
+![开始菜单设置](https://img.imql.life/illustrations/d87bbcff09da70aa766bcc6baef10d24.png "开始菜单设置")
 
 6. 设置 Git 的默认文本编辑器：就选择 Vim，Next；
 
-![设置Git的默认文本编辑器](https://img.imql.life/illustrations/FiMhktEGVTfUzGAiblxwasv0AMNM.png "设置Git的默认文本编辑器")
+![设置Git的默认文本编辑器](https://img.imql.life/illustrations/840d5ccbd64c47229662736c83aaeb4b.png "设置Git的默认文本编辑器")
 
 7. 调整 PATH 环境。就选择默认推荐的，Next，该推荐项是说仅向 PATH 添加一些最小的 Git 包装器，以避免使用可选的 Unix 工具造成环境混乱，能够通过 Git Bash、命令提示符、Windows PowerShell 以及在 PATH 中寻找 Git 的任何第三方软件使用 Git；
 
-![调整Path环境](https://img.imql.life/illustrations/FjlUrwUZXYLx0c0WPTIpkVTyZ-Pn.png "调整Path环境")
+![调整Path环境](https://img.imql.life/illustrations/8e91c4cd317846766a76e392fb880086.png "调整Path环境")
 
 8. 选择 HTTPS 后端传输。第一个选项是说使用 OpenSSL 库，服务器证书将使用 ca-bundle.crt 文件进行验证，这是我们常用的选项，第二个选项是说使用本地 Windows 安全通道库，服务器证书将使用 Windows 证书存储验证，此选项还允许使用公司的内部根 CA 证书，例如通过 Active Directory Domain Services，这里，就默认第一个选项，Next；
 
-![选择HTTPS后端传输](https://img.imql.life/illustrations/FgfTclCBBASDa_aGj69sNMnG-FYm.png "选择HTTPS后端传输")
+![选择HTTPS后端传输](https://img.imql.life/illustrations/b38a3e85a5b39464986e08395ee46035.png "选择HTTPS后端传输")
 
 9. 配置行尾符号转换：第一个选项是说签出 Windows 风格，提交 Unix 风格的行尾，即签出文本文件时，Git 会将 LF 转换为 CRLF，提交文本文件时，CRLF 将转换为 LF，对于跨平台项目，这是 Windows 上的推荐设置（“core.autocrlf”设置为“true”）。第二个选项是说按原样签出，提交 Unix 样式的行尾，签出文本文件时，Git 不会执行任何转换，提交文本文件时，CRLF 将转换为 LF，对于跨平台项目，这是 Unix 上的建议设置（“core.autocrlf”设置为“input”）。第三个选项是说按原样签出，按原样提交，当签出或提交文本文件时，Git 不会执行任何转换，不建议跨平台项目选择此选项（“core.autocrlf”设置为“false”），这里，就默认第一个选项，Next；
 
-![配置行尾符号转换](https://img.imql.life/illustrations/FtyyIhdzEzBz7no7Z9ZcMujtD60l.png "配置行尾符号转换")
+![配置行尾符号转换](https://img.imql.life/illustrations/ec51b1b4fc5e38131c17e99d67d82f58.png "配置行尾符号转换")
 
 10. 配置终端模拟器以与 Git Bash 一起使用。第一个选项是说使用 MinTTY（MSYS2 的默认终端），Git Bash 将使用 MinTTY 作为终端模拟器，该模拟器具有可调整大小的窗口，非矩形选择和 Unicode 字体，Windows 控制台程序（例如交互式 Python）必须通过“ winpty”启动才能在 MinTTY 中运行，第二个选项是说使用 Windows 的默认控制台窗口，Git 将使用 Windows 的默认控制台窗口（“cmd.exe”），该窗口可以与 Win32 控制台程序（如交互式 Python 或 node.js）一起使用，但默认的回滚非常有限，需要配置为使用 unicode 字体以正确显示非 ASCII 字符，并且在 Windows 10 之前，其窗口不能自由调整大小，并且只允许矩形文本选择，这里，就默认第一个选项，Next；
 
-![配置终端模拟器以与Git_Bash一起使用](https://img.imql.life/illustrations/FtD2J2Pk69hC7FkPlpIw0IXLMpX_.png "配置终端模拟器以与Git_Bash一起使用")
+![配置终端模拟器以与Git_Bash一起使用](https://img.imql.life/illustrations/a6de4c8a6358563c695ad73ccf6189da.png "配置终端模拟器以与Git_Bash一起使用")
 
 11. 配置额外的选项。第一个选项是说启用文件系统缓存，文件系统数据将被批量读取并缓存在内存中用于某些操作（“core.fscache”设置为“true”）， 这可以显着地提升性能，第二个选项是说启用 Git 凭证管理器，Windows 的 Git 凭证管理器为 Windows 提供安全的 Git 凭证存储，最显著的是对 Visual Studio Team Services 和 GitHub 的多因素身份验证支持（需要 .NET Framework v4.5.1 或更高版本），第三个选项是说启用符号链接，启用符号链接需要 SeCreateSymbolicLink 权限，现有存储库不受此设置的影响，这里，就默认第一个和第二个选项，Install；
 
-![配置额外的选项](https://img.imql.life/illustrations/FjlF9cBVRWBO-ePBycsmsJ3aaf4G.png "配置额外的选项")
+![配置额外的选项](https://img.imql.life/illustrations/36ae0d9592dcb8d0ef8c96a751dac76e.png "配置额外的选项")
 
 12. 安装完成；
 
-![安装完成](https://img.imql.life/illustrations/FuoSX6hl9_gCFpxxAtqc4ykppgTy.png "安装完成")
+![安装完成](https://img.imql.life/illustrations/12eea40c83659b80648d5280bf4e062f.png "安装完成")
 
 13. Release Notes；
 
-![Release Notes](https://img.imql.life/illustrations/Fjz6IdAWqm0vio87duHXKCJchXLH.png "Release Notes")
+![Release Notes](https://img.imql.life/illustrations/a4f7e5a1271b6214c159244674e4a071.png "Release Notes")
 
 14. 至此 Git 就算安装完毕了，之后需要去 [Github](https://github.com/) 和 [Gitee](https://gitee.com/) 注册一个自己的账号，需要绑定自己的邮箱，Github 的话强烈建议绑定谷歌邮箱；
 
-![注册](https://img.imql.life/illustrations/FoLfpjHW5ebdNy28n7rOUy5qx3Ew.png "注册")
+![注册](https://img.imql.life/illustrations/c76465756143a7aef2f04769676efac8.png "注册")
 
 15. 在桌面右键，点击 Git Bash Here；
 
-![桌面右键](https://img.imql.life/illustrations/Fqu0Rbz1qATGm9FzTQjMInV9sPYu.png "桌面右键")
+![桌面右键](https://img.imql.life/illustrations/69113b03ada6655d5eff921bde59b908.png "桌面右键")
 
 16. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
@@ -104,7 +103,7 @@ git config --global user.email "<自己的Github邮箱>"
 ssh-keygen -t rsa
 ```
 
-![SSH](https://img.imql.life/illustrations/Frdi2BIte7tPXk74sLNOHP2IWjB6.png "SSH")
+![SSH](https://img.imql.life/illustrations/0c0fbfcb69253c795b74528a8d9a77ba.png "SSH")
 
 18. Github 和 Gitee 的 SSH 公钥配置。登录自己的 Github 账号，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile（自定义），粘贴刚复制的内容为 Key，最后点击 Add SSH key，Gitee 的方式大同小异；
 19. 测试一下。执行`ssh -T git@github.com`或`ssh -T git@gitee.com`，输入 yes 回车，出现以下提示，表示本机和自己的 GitHub/Gitee 账号绑定成功。
@@ -121,7 +120,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 sudo apt-get update -y
 ```
 
-![更新](https://img.imql.life/illustrations/Fsg0pLxvXhnwDfKP7xVmpIvj_aOK.png "更新")
+![更新](https://img.imql.life/illustrations/e1901e3091e404d47dd2161b052232eb.png "更新")
 
 2. 在终端输入以下命令回车，安装 Git，可再输入下一个命令查看 Git 版本；
 
@@ -133,7 +132,7 @@ sudo apt install git
 git --version
 ```
 
-![安装Git](https://img.imql.life/illustrations/FiqAP6BEIhiEWdK0CDR8hUn1n2tj.gif "安装Git")
+![安装Git](https://img.imql.life/illustrations/5430c7a786669076b1504fb9752e577f.gif "安装Git")
 
 3. 全局用户信息配置。分别输入以下两个命令回车执行，无提示表示命令执行成功，可以用`git config --list`来查看配置好的信息；
 
@@ -179,7 +178,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 5. 提交修改；
 6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
 
-![Git的工作流程](https://img.imql.life/illustrations/FsakOwGQR9T3huqpfajLYvcsMKB5.jpeg "Git的工作流程")
+![Git的工作流程](https://img.imql.life/illustrations/daff5aafb356a6b32fb7207e74d3c90e.jpeg "Git的工作流程")
 
 ## Git 工作区、暂存区和版本库
 
@@ -188,7 +187,7 @@ Hi <自己的Github/Gitee用户名>! You've successfully authenticated, but <Git
 - 版本库：即历史提交。
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
-![Git 工作区、暂存区和版本库.jpg](https://img.imql.life/illustrations/Fp1_zEPfSn95_OWbh7nyvepr6Aq0.jpeg)
+![Git 工作区、暂存区和版本库.jpg](https://img.imql.life/illustrations/1216606f036c3ca07efc9d6f60879d47.jpeg)
 
 1. 当对当前工作区编辑（M）、添加（A）或删除（D）的文件执行 git add 命令时，暂存区的目录树被更新；
 2. 当执行提交操作（git commit）时，暂存区转化为版本库的下一次提交；

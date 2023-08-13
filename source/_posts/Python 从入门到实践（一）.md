@@ -1,14 +1,13 @@
 ---
 title: Python 从入门到实践（一）
 urlname: xzcivf
-author: ql-isaac
 date: "2020-01-27 18:09:17"
-updated: "2023-06-25 22:29:11"
+updated: "2023-08-12 11:15:15"
 trans: Python-Learning(1)
 cover: "https://img.imql.life/Python.png"
 tags:
+  - Python
   - Visual Studio Code
-  - Python v3.8.1
   - Windows
 categories:
   - Python 从入门到实践
@@ -32,15 +31,15 @@ categories:
 ## 搭建 Python 学习环境
 
 前往[ Python 官网](https://www.python.org/)下载最新版 Python，需要说明的是，Python2.x 和 Python3.x 之间存在较大差异，在开发中一般都使用 Python3.x，本次使用的版本为 3.8.1。
-![最新版Python下载.png](https://img.imql.life/illustrations/FgdfaGqrR6cjH22lbgixwgLZq8Zh.png)
+![最新版Python下载.png](https://img.imql.life/illustrations/a34cc43c7b29863f520a1d58bd084945.png)
 下载完成后运行安装程序，勾选 Add Python 3.8 to PATH，点击 Customize installation，点击 Next，点击 Install，等待安装完成。按下 Windows+R 组合键，输入 CMD 进入命令行窗口，输入 python，发现可进入 Python 交互式环境，如下图。
-![Python交互式环境.png](https://img.imql.life/illustrations/Fsf2soGAVLjO1LBl4mYkyGI5-kVi.png)
+![Python交互式环境.png](https://img.imql.life/illustrations/a895778fe13964f9b250423aef160803.png)
 文本编辑器到底哪家强？我推荐 Visual Studio Code。[前往官网](https://code.visualstudio.com/)，点击 Download for Windows，下载完成后运行安装程序，下一步即可，建议到下图这一步时勾选上这三个选项，等待安装完成。
-![勾选.png](https://img.imql.life/illustrations/FtgJapiUtV6KNboeLbd-S609dX43.png)
+![勾选.png](https://img.imql.life/illustrations/80cf3e513e05f4c37d2eba5d9c65c3f8.png)
 安装完成后进入 Visual Studio Code，进入扩展市场（左侧第五个图标），搜索 chinese，如下图，点击 Install 安装简体中文包，安装完成后点击 Restart Now，。
-![安装简体中文包.png](https://img.imql.life/illustrations/FsiLvii2kr0VhR3QbLivQO6eKm-N.png)
+![安装简体中文包.png](https://img.imql.life/illustrations/323541e6bb2a759580e833fb8fc5de00.png)
 仍然点击左侧第五个图标，搜索 python，第一个就是微软官方的，如下图，安装。
-![Python.png](https://img.imql.life/illustrations/ForBWJZeBzRXBzfc01SzOsRVj4AH.png)
+![Python.png](https://img.imql.life/illustrations/906d518282e07620fa1ed47cbffa5f79.png)
 
 ## Python 学习起步
 
@@ -50,9 +49,9 @@ categories:
 print("Hello,world!")
 ```
 
-![打开文件夹.png](https://img.imql.life/illustrations/FmWyV2slAuq1sY9613fLDfHobBSc.png)
+![打开文件夹.png](https://img.imql.life/illustrations/0eada0e201cbcdffafc6d67850a6c527.png)
 点击右上角运行图标，可看到学习任何一门编程语言时第一个编写的程序的运行结果，如下图。
-![第一个程序.png](https://img.imql.life/illustrations/FhsoNBTqKIbAgOna4Pildcnc4yVD.png)
+![第一个程序.png](https://img.imql.life/illustrations/5cd833a7342e631ca4cdfbbd95e4d298.png)
 
 ## 注释
 

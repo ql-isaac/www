@@ -1,7 +1,6 @@
 ---
 title: Windows 11 和 Arch Linux 双系统
 urlname: uz6vp5
-author: ql-isaac
 date: "2022-04-30 21:51:00"
 updated: "2022-04-30 21:51:00"
 trans: Dual_Booting_Windows_11_and_Arch_Linux
@@ -20,22 +19,22 @@ categories:
 ## 下载系统镜像
 
 [前往官方下载地址](https://archlinux.org/download/)，我使用的 HTTP 下载：
-![HTTP下载.png](https://img.imql.life/illustrations/FrhDaUU3-PSaESnDY7szQgyT_vKI.png)
+![HTTP下载.png](https://img.imql.life/illustrations/5f9604e4d1e2035a5ff78a3b85b87788.png)
 
 ## 磁盘管理
 
 使用 Windows 的磁盘管理从 D 盘分 170GB 空闲空间出来，如下图。
-![170GB.png](https://img.imql.life/illustrations/FuE6PpSIyW0PSiYTyMjqaWz1BrxD.png)
+![170GB.png](https://img.imql.life/illustrations/2fd0e04e9af29291bffdcec0dbbbf57b.png)
 
 ## 制作启动盘
 
 空 U 盘插入电脑，如下图，使用 [Rufus](https://rufus.ie/) 制作，注意分区类型为 GPT 而非默认的 MBR，写入方式为推荐的 ISO。
-![制作.png](https://img.imql.life/illustrations/Fn6t9UrRnY634kbeX_KDkqYzc8KY.png)
-![以ISO镜像模式写入.png](https://img.imql.life/illustrations/FqkSgSwzuhkMDKSzEfQsgwqV8HPy.png)
+![制作.png](https://img.imql.life/illustrations/2412b18d9fa8a94c497d32e2d2a0b562.png)
+![以ISO镜像模式写入.png](https://img.imql.life/illustrations/93b5e0f1e7a6bfb5b9c7a80b05843346.png)
 
 ## 禁用快速启动和休眠[^1]
 
-![禁用快速启动和休眠.png](https://img.imql.life/illustrations/FgztSv0laG9SB5Fz1RPjDM8cmRHR.png)
+![禁用快速启动和休眠.png](https://img.imql.life/illustrations/150747027b71d50cdd6271273704fc96.png)
 
 ## 时间表示标准统一[^2]
 
@@ -59,7 +58,7 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 
 F10 保存退出 BIOS 后不停按 F12 进入启动项选择界面，键盘上下键选择带“EFI”“USB”字样的，一般是第二个，等待。
 下面就可以正式开始安装 Arch Linux：
-![正式开始安装.png](https://img.imql.life/illustrations/Fnqhchj6LiHk4kSPg5f825Yzi2KP.png)
+![正式开始安装.png](https://img.imql.life/illustrations/3bfe20f3ff7d2cf9156a866c1d59c458.png)
 
 ## 验证引导模式
 
@@ -138,13 +137,13 @@ cfdisk /dev/nvme0n1
 ```
 
 找到以上分出来的 170GB 的空闲空间，选择 New，首先是给根分区分配 32GB，再选择剩下的 138GB，如下图。
-![剩下的138GB.png](https://img.imql.life/illustrations/Fkuo22Zo0BkkyM0PPAsefE0WwJel.png)
+![剩下的138GB.png](https://img.imql.life/illustrations/384e65272ef67709711fbee3f123d5a4.png)
 选择 New，给交换分区分配 3GB，选择 Type，设定分区类型为 Linux swap，如下图。
-![Linux_swap.png](https://img.imql.life/illustrations/FquPW_T7NgnJn9GHTIIv1UAYqMEX.png)
+![Linux_swap.png](https://img.imql.life/illustrations/2d008cc243095a670e9c25fc1852ba9c.png)
 选择剩下的 135GB，选择 New，给家分区分配剩下的空间，选择 Type，设定分区类型为 Linux home，如下图。
-![Linux_home.png](https://img.imql.life/illustrations/FrgwFGi4PdMM_QeaS55qU6EYf7KK.png)
+![Linux_home.png](https://img.imql.life/illustrations/119c382b48d2688c2e433a78f738544b.png)
 选择 Write，输入 yes 回车：
-![Write.png](https://img.imql.life/illustrations/FtkY2VplhS809KIpX8SbtYwRxrLc.png)
+![Write.png](https://img.imql.life/illustrations/cf5f129c57f279989af4cdcf2493bae9.png)
 选择 Quit 退出。
 
 ## 格式化分区
@@ -364,7 +363,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-![grub-mkconfig.png](https://img.imql.life/illustrations/FpKBMPWzLXYTbZkuNE7cCJzr4Iqk.png)
+![grub-mkconfig.png](https://img.imql.life/illustrations/84c7248e37454fc1007dd0464c9065e0.png)
 
 ## 重启
 
@@ -491,7 +490,7 @@ sudo pacman -S ttf-hannom noto-fonts noto-fonts-extra noto-fonts-emoji noto-font
 ### 系统语言
 
 按 Win 键，搜索运行 language，添加简体中文（在最下方），调整其优先级到最上方，Apply（应用）：
-![系统语言.png](https://img.imql.life/illustrations/FhPUJLT0MiacTXRQE0EvkFByuyKn.png)
+![系统语言.png](https://img.imql.life/illustrations/08c27c0c494c4894355239b5da75681f.png)
 注销重新登录以生效。
 
 ### 添加 archlinuxcn 源
@@ -564,14 +563,14 @@ sudo pacman -S timeshift
 
 按 Win 键或者 Alt+Space，搜索运行 Timeshift。
 快照类型一般选择 RSYNC：
-![选择快照类型.png](https://img.imql.life/illustrations/FiEH23ol0d4XhmQtQkyVhfw9vPlI.png)
+![选择快照类型.png](https://img.imql.life/illustrations/63c1deb6f5662f20344d876d87f6b5af.png)
 选择快照位置：
-![选择快照位置.png](https://img.imql.life/illustrations/FifdHfyB1tGBHmOzO-TIEd2Bxo3_.png)
+![选择快照位置.png](https://img.imql.life/illustrations/e1f73ba8c4128cd7cfc1dd59d3a9b28c.png)
 选择快照等级：
-![选择快照等级.png](https://img.imql.life/illustrations/FtuAYyI5fhMd6NwLnmHt48gbB0FL.png)
+![选择快照等级.png](https://img.imql.life/illustrations/00373ee1d29601e5854597831f847992.png)
 默认是不备份用户目录，默认即可。
 设置完成：
-![设置完成.png](https://img.imql.life/illustrations/FvlfqyVGBCqgL4YBj0ga7ZilzCPE.png)
+![设置完成.png](https://img.imql.life/illustrations/14d974905b3339cceb70866cadac1ff7.png)
 启用并启动 [cron](<https://wiki.archlinux.org/title/Cron_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)：
 
 ```powershell
@@ -631,9 +630,9 @@ sudo pacman -S firefox-i18n-zh-cn
 ## 美化启动项选择界面
 
 每次重启电脑，如下图，默认的启动项选择界面看起来比较简朴，我们可以换一个主题。
-![默认的启动项选择界面.png](https://img.imql.life/illustrations/Fo0v1-vrLqxQIoMIei6-FdoeQGrG.png)
+![默认的启动项选择界面.png](https://img.imql.life/illustrations/b6c9b499166502f5ab2733698115dd6d.png)
 [前往主题仓库](https://github.com/AdisonCavani/distro-grub-themes)，下载 Arch 主题文件：
-![arch.png](https://img.imql.life/illustrations/Ft5tGcEiZUcdII7hWwlYkzDrsiiK.png)
+![arch.png](https://img.imql.life/illustrations/9ed9aa73446cc14d3e785c38a4f71718.png)
 安装 Grub Customizer：
 
 ```powershell
@@ -642,9 +641,9 @@ sudo pacman -S grub-customizer
 
 按 Win 键或者 Alt+Space，搜索运行 Grub Customizer。
 点击外观设置，设定分辨率为 1920x1080：
-![自定义分辨率.png](https://img.imql.life/illustrations/Fj1J0ki_89h3UJUcIbLLy1gaYmrN.png)
+![自定义分辨率.png](https://img.imql.life/illustrations/f92cad978180676abcad444479c50ed3.png)
 点击主题后面的加号，选择以上下载好的主题文件，点击左上角文件，保存：
-![保存.png](https://img.imql.life/illustrations/FoR2BK3WyUe5jLAHQlEvIiKELgkc.png)
+![保存.png](https://img.imql.life/illustrations/3010e38e90ec4f52cd43ee26ea34a994.png)
 重启，至此，Windows 11 和 Arch Linux 双系统安装园满完成。
 
 ## 参考
