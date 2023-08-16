@@ -6,3 +6,5 @@ public/
 node_modules/
 .deploy*/
 .elog.env
+source/_posts/
+cache/elog.cache.json
