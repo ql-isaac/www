@@ -77,6 +77,12 @@ jobs:
           name: "Posts"
           path: "source/_posts"
           retention-days: 90
+      - name: Upload db.json
+        uses: actions/upload-artifact@v3
+        with:
+          name: "DB"
+          path: db.json
+          retention-days: 90
       # - name: Deploy
       #   run: |
       #     npm run build
