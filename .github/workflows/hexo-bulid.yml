@@ -60,6 +60,17 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+      - name: Clone and download
+        run: |
+          git clone git@github.com:ql-isaac/www.imql.life.git .deploy_git
+          curl -LsO https://github.com/ql-isaac/www.imql.life/archive/refs/heads/master.zip
+          unzip master.zip -d .
+          mv www.imql.life-master/ public
+      - name: Download DB
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          name: "DB"
       - name: Deploy
         run: |
           git config --global user.name "${{secrets.GIT_NAME}}"
