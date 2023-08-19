@@ -1,8 +1,5 @@
 name: hexo-build
 on:
-  push:
-    branches:
-      - main
   repository_dispatch:
     types:
       - publish
