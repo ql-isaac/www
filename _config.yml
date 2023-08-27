@@ -113,12 +113,18 @@ douban:
   book:
     title: It's a beautiful day!
     quote: It's a beautiful day!
+    option: 
+      top_img: https://img.imql.life/book.jpg
   movie:
     title: It's a beautiful day!
     quote: It's a beautiful day!
+    option: 
+      top_img: https://img.imql.life/movie.jpg
   game:
     title: It's a beautiful day!
     quote: It's a beautiful day!
+    option: 
+      top_img: https://img.imql.life/game.jpg
   timeout: 10000
 
 # Markdown-it config
