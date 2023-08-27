@@ -2,10 +2,6 @@
   "name": "Hexo",
   "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "node",
-  "postCreateCommand": {
-    "mkdir": "mkdir -p ~/.ssh/", 
-    "id_rsa": "echo \"$DEPLOY_KEY\" > ~/.ssh/id_rsa",
-    "chmod": "chmod 600 ~/.ssh/id_rsa",
-    "known_hosts": "ssh-keyscan github.com >> ~/.ssh/known_hosts"
-  }
+  "postCreateCommand": "mkdir -p ~/.ssh/ && echo \"$DEPLOY_KEY\" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa && ssh-keyscan github.com >> ~/.ssh/known_hosts && sudo npm install -g hexo-cli && cd ${containerWorkspaceFolder} && rm -rf node_modules && npm ci",
+  "postStartCommand": "hexo clean && hexo generate"
 }
