@@ -1,0 +1,13 @@
+diff --git a/node_modules/@elog/sdk-yuque/dist/index.js b/node_modules/@elog/sdk-yuque/dist/index.js
+index 84b89fe..85fecb3 100644
+--- a/node_modules/@elog/sdk-yuque/dist/index.js
++++ b/node_modules/@elog/sdk-yuque/dist/index.js
+@@ -122,7 +122,7 @@ function processWordWrap(doc) {
+   const multiBr = /(<br>[\s\n]){2}/gi;
+   const multiBrEnd = /(<br \/>[\n]?){2}/gi;
+   const brBug = /<br \/>/g;
+-  raw = raw.replace(multiBr, "<br>").replace(multiBrEnd, "<br />\n").replace(brBug, "\n");
++  raw = raw.replace(multiBr, "<br>").replace(multiBrEnd, "<br />\n");
+   return raw;
+ }
+ function noProcess(doc) {

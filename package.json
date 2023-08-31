@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "sync": "elog sync -a cache/elog.cache.json"
+    "sync": "elog sync -a cache/elog.cache.json",
+    "postinstall": "patch-package"
   },
   "hexo": {
     "version": "5.4.2"
@@ -29,5 +30,8 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0"
   }
 }

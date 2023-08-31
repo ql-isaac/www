@@ -1,0 +1,13 @@
+diff --git a/node_modules/@elog/plugin-adapter/dist/index.js b/node_modules/@elog/plugin-adapter/dist/index.js
+index 7f39cc8..a396ab3 100644
+--- a/node_modules/@elog/plugin-adapter/dist/index.js
++++ b/node_modules/@elog/plugin-adapter/dist/index.js
+@@ -51,7 +51,7 @@ function matterMarkdownAdapter(post) {
+     _shared.out.warning(`\u3010${post.properties.title}\u3011Front matter \u751F\u6210\u5931\u8D25\uFF0C\u8BF7\u68C0\u67E5\u6587\u6863\u5C5E\u6027`, e.message);
+     _shared.out.debug(e);
+   }
+-  return formatRaw(body);
++  return formatRaw(body).replace(/<br \/>/g, '\n\n');
+ }
+ 
+ // src/markdown/markdown.ts
