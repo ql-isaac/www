@@ -3,5 +3,5 @@
   "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "node",
   "postCreateCommand": "mkdir -p ~/.ssh/ && echo \"$DEPLOY_KEY\" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa && ssh-keyscan github.com >> ~/.ssh/known_hosts && sudo npm install -g hexo-cli && cd ${containerWorkspaceFolder} && rm -rf node_modules && npm ci",
-  "postStartCommand": "hexo clean && hexo generate"
+  "postStartCommand": "git submodule update --init && hexo clean && hexo generate"
 }

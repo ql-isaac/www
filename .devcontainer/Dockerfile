@@ -1,6 +1,6 @@
 FROM library/node:18-bullseye
 
-ENV TZ="Asia/Shangha
+ENV TZ="Asia/Shangha"
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update \
