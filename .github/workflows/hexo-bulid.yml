@@ -50,6 +50,7 @@ jobs:
           COS_REGION: ${{ secrets.COS_REGION }}
           COS_HOST: ${{ secrets.COS_HOST }}
         run: |
+          mkdir cache
           npm run sync
       - name: Setup private rsa key
         env:
