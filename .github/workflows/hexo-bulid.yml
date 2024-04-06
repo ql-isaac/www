@@ -29,12 +29,14 @@ jobs:
         run: npm ci
       - name: Download Posts
         uses: dawidd6/action-download-artifact@v2
+        continue-on-error: true
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           name: "Posts"
           path: "source/_posts"
       - name: Download Cache
         uses: dawidd6/action-download-artifact@v2
+        continue-on-error: true
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           name: "Cache"
