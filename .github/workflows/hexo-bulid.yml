@@ -71,6 +71,7 @@ jobs:
           mv www.imql.life-master/ public
       - name: Download DB
         uses: dawidd6/action-download-artifact@v2
+        continue-on-error: true
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           name: "DB"
