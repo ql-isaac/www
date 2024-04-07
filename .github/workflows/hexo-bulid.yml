@@ -27,14 +27,14 @@ jobs:
       - name: Install dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: npm ci
-      - name: Download Posts
+      - name: Download Posts from the last workflow
         uses: dawidd6/action-download-artifact@v2
         continue-on-error: true
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           name: "Posts"
           path: "source/_posts"
-      - name: Download Cache
+      - name: Download Cache from the last workflow
         uses: dawidd6/action-download-artifact@v2
         continue-on-error: true
         with:
@@ -63,40 +63,40 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           ssh-keyscan gitee.com >> ~/.ssh/known_hosts
-      - name: Clone and download
+      - name: Download and clone PUBLIC
         run: |
-          git clone git@github.com:ql-isaac/www.imql.life.git .deploy_git
           curl -LsO https://github.com/ql-isaac/www.imql.life/archive/refs/heads/master.zip
           unzip master.zip -d .
           mv www.imql.life-master/ public
+          git clone git@github.com:ql-isaac/www.imql.life.git .deploy_git
       - name: Download DB
         uses: dawidd6/action-download-artifact@v2
         continue-on-error: true
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           name: "DB"
-      - name: Deploy
+      - name: Generate and deploy
         run: |
           git config --global user.name "${{secrets.GIT_NAME}}"
           git config --global user.email "${{secrets.GIT_EMAIL}}"
           npm run build && npm run deploy
-      - name: Upload Cache
+      - name: Upload DB for next workflow to download
+        uses: actions/upload-artifact@v3
+        with:
+          name: "DB"
+          path: db.json
+          retention-days: 90
+      - name: Upload Cache for next workflow to download
         uses: actions/upload-artifact@v3
         with:
           name: "Cache"
           path: cache
           retention-days: 90
-      - name: Upload Posts
+      - name: Upload Posts for next workflow to download
         uses: actions/upload-artifact@v3
         with:
           name: "Posts"
           path: "source/_posts"
-          retention-days: 90
-      - name: Upload db.json
-        uses: actions/upload-artifact@v3
-        with:
-          name: "DB"
-          path: db.json
           retention-days: 90
       # - name: Deploy
       #   run: |
